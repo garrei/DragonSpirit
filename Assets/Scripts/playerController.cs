@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class playerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour {
 
 	Transform myTransform;
 	Rigidbody2D rb;
-	int speed = 5;
+	float speed = 5;
 
 	//Camera
 	public Camera cam;
@@ -18,13 +18,30 @@ public class playerController : MonoBehaviour {
 		myTransform = transform;
 		rb = GetComponent<Rigidbody2D>();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-
-
+		
 		//Movement
 		rb.velocity = new Vector2 (Input.GetAxisRaw("Horizontal")*speed, Input.GetAxisRaw("Vertical")*speed);
+
+		//When both axes are called at the same time the player wil move slightly faster
+		//THis can be fixed by changing the speed when this occurs
+		if(Input.GetAxisRaw ("Vertical") == 1 && Input.GetAxisRaw ("Horizontal") == 1){
+			speed = 3.375f;
+		}
+		else if(Input.GetAxisRaw ("Vertical") == 1 && Input.GetAxisRaw ("Horizontal") == -1){
+			speed = 3.375f;
+		}
+		else if(Input.GetAxisRaw ("Vertical") == -1 && Input.GetAxisRaw ("Horizontal") == 1){
+			speed = 3.375f;
+		}
+		else if(Input.GetAxisRaw ("Vertical") == 1 && Input.GetAxisRaw ("Horizontal") == -1){
+			speed = 3.375f;
+		}
+		else {
+			speed = 5f;
+		}
 
 		//Setting camera constraint variables
 		camHeight = 2* cam.orthographicSize;
