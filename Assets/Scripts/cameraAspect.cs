@@ -6,9 +6,9 @@ public class CameraAspect : MonoBehaviour {
 	public Camera letterbox;
 	public Camera mainCamera;
 
-	// Update is called once per frame
+		// Update is called once per frame
 	void Update () {
-		
+
 		// Maintain the 9:16 aspectratio using letterboxing (vertical or horisontal depending screen dimensions)
 		if (letterbox.aspect < 0.9f)
 		{

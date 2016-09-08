@@ -36,7 +36,10 @@ public class PlayerController : MonoBehaviour {
 		else if(Input.GetAxisRaw ("Vertical") == -1 && Input.GetAxisRaw ("Horizontal") == 1){
 			speed = 3.375f;
 		}
-		else if(Input.GetAxisRaw ("Vertical") == 1 && Input.GetAxisRaw ("Horizontal") == -1){
+		else if(Input.GetAxisRaw ("Vertical") == 1 && Input.GetAxisRaw ("Horizontal") == 1){
+			speed = 3.375f;
+		}
+		else if(Input.GetAxisRaw ("Vertical") == -1 && Input.GetAxisRaw ("Horizontal") == -1){
 			speed = 3.375f;
 		}
 		else {
