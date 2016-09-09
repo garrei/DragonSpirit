@@ -6,11 +6,12 @@ public class PlayerController : MonoBehaviour {
 	Transform myTransform;
 	Rigidbody2D rb;
 	float speed = 5;
+	public bool canMoveLeft = true, canMoveRight = true;
+	float movement = 0;
 
 	//Camera
 	public Camera cam;
-	float camHeight;
-	float camWidth;
+	float camHeight, camWidth;
 
 	// Use this for initialization
 	void Start () {
@@ -22,9 +23,6 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		//Movement
-		rb.velocity = new Vector2 (Input.GetAxisRaw("Horizontal")*speed, Input.GetAxisRaw("Vertical")*speed);
-
 		//When both axes are called at the same time the player wil move slightly faster
 		//THis can be fixed by changing the speed when this occurs
 		if(Input.GetAxisRaw ("Vertical") == 1 && Input.GetAxisRaw ("Horizontal") == 1){
@@ -50,13 +48,15 @@ public class PlayerController : MonoBehaviour {
 		camHeight = 2* cam.orthographicSize;
 		camWidth = camHeight * cam.aspect;
 
-		//Camera constraints
+		//Movement constraints
 		//X axis camera constraints
 		if(myTransform.position.x > camWidth/2 - camWidth/40){
 			myTransform.position = new Vector2 (camWidth/2 - camWidth/40,myTransform.position.y);
+			canMoveRight = false;
 		}
 		if(myTransform.position.x < -camWidth/2 + camWidth/40){
 			myTransform.position = new Vector2 (-camWidth/2 + camWidth/40,myTransform.position.y);
+			canMoveLeft = false;
 		}
 
 		//Y axis camera constraints
@@ -66,5 +66,25 @@ public class PlayerController : MonoBehaviour {
 		if(myTransform.position.y < camHeight/30){
 			myTransform.position = new Vector2 (myTransform.position.x,camHeight/30);
 		}
+
+		//Fixing the jittering of the terrain
+		if (canMoveLeft == false && Input.GetAxisRaw("Horizontal") < 0) {
+			movement = 0;
+		} 
+		else if (canMoveRight == false && Input.GetAxisRaw("Horizontal") > 0) {
+			movement = 0;
+		} 
+		else {
+			movement = Input.GetAxisRaw ("Horizontal");
+		}
+		if(Input.GetAxisRaw("Horizontal") > 0){
+			canMoveLeft = true;
+		}
+		if(Input.GetAxisRaw("Horizontal") < 0){
+			canMoveRight = true;
+		}
+
+		//Movement
+		rb.velocity = new Vector2 (movement*speed, Input.GetAxisRaw("Vertical")*speed);
 	}
 }
