@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\TerrainMove.cs" />
+     <Compile Include="Assets\Scripts\Weapons\primaryNormal.cs" />
+     <Compile Include="Assets\Scripts\Weapons\secondaryNormal.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -15,7 +15,7 @@ public class TerrainMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(terrainIsMoving == true){
-			myTransform.Translate (Vector3.down/100);
+			//myTransform.Translate (Vector3.down/100);
 		}
 		myTransform.position = new Vector3(-player.transform.position.x/2,myTransform.position.y,myTransform.position.z);
 	}
