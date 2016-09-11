@@ -17,6 +17,6 @@ public class TerrainMove : MonoBehaviour {
 		if(terrainIsMoving == true){
 			//myTransform.Translate (Vector3.down/100);
 		}
-		myTransform.position = new Vector3(-player.transform.position.x/2,myTransform.position.y,myTransform.position.z);
+		myTransform.position = new Vector3(-player.transform.position.x/4,myTransform.position.y,myTransform.position.z);
 	}
 }

@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour {
 
 	Transform myTransform;
 	Rigidbody2D rb;
-	float speed = 5;
+	float currentSpeed, speedNormal = 5, speedDiag;
 	public bool canMoveLeft = true, canMoveRight = true;
 	float movement = 0;
 
@@ -15,9 +15,9 @@ public class PlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
 		myTransform = transform;
 		rb = GetComponent<Rigidbody2D>();
+		speedDiag = speedNormal * 2/3;
 	}
 
 	// Update is called once per frame
@@ -26,22 +26,22 @@ public class PlayerController : MonoBehaviour {
 		//When both axes are called at the same time the player wil move slightly faster
 		//THis can be fixed by changing the speed when this occurs
 		if(Input.GetAxisRaw ("Vertical") == 1 && Input.GetAxisRaw ("Horizontal") == 1){
-			speed = 3.375f;
+			currentSpeed = speedDiag;
 		}
 		else if(Input.GetAxisRaw ("Vertical") == 1 && Input.GetAxisRaw ("Horizontal") == -1){
-			speed = 3.375f;
+			currentSpeed = speedDiag;
 		}
 		else if(Input.GetAxisRaw ("Vertical") == -1 && Input.GetAxisRaw ("Horizontal") == 1){
-			speed = 3.375f;
+			currentSpeed = speedDiag;
 		}
 		else if(Input.GetAxisRaw ("Vertical") == 1 && Input.GetAxisRaw ("Horizontal") == 1){
-			speed = 3.375f;
+			currentSpeed = speedDiag;
 		}
 		else if(Input.GetAxisRaw ("Vertical") == -1 && Input.GetAxisRaw ("Horizontal") == -1){
-			speed = 3.375f;
+			currentSpeed = speedDiag;
 		}
 		else {
-			speed = 5f;
+			currentSpeed = speedNormal;
 		}
 
 		//Setting camera constraint variables
@@ -85,6 +85,6 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		//Movement
-		rb.velocity = new Vector2 (movement*speed, Input.GetAxisRaw("Vertical")*speed);
+		rb.velocity = new Vector2 (movement*currentSpeed, Input.GetAxisRaw("Vertical")*currentSpeed);
 	}
 }

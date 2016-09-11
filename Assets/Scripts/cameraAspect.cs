@@ -17,7 +17,5 @@ public class CameraAspect : MonoBehaviour {
 		{
 			mainCamera.rect = new Rect((1f - 0.7777777f / letterbox.aspect) / 2.0f, 0, 0.7777777f / letterbox.aspect, 1f);
 		}
-
-
  	}
 }

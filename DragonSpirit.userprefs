@@ -1,11 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraAspect.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Weapons\secondaryNormal.cs">
     <Files>
-      <File FileName="Assets\Scripts\Weapons\primaryNormal.cs" Line="6" Column="16" />
-      <File FileName="Assets\Scripts\Player\PlayerAttack.cs" Line="8" Column="24" />
-      <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="39" Column="4" />
-      <File FileName="Assets\Scripts\TerrainMove.cs" Line="18" Column="6" />
+      <File FileName="Assets\Scripts\Weapons\primaryNormal.cs" Line="5" Column="1" />
+      <File FileName="Assets\Scripts\Weapons\secondaryNormal.cs" Line="19" Column="2" />
+      <File FileName="Assets\Scripts\Player\PlayerAttack.cs" Line="9" Column="21" />
+      <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="8" Column="37" />
+      <File FileName="Assets\Scripts\TerrainMove.cs" Line="20" Column="68" />
       <File FileName="Assets\Scripts\CameraAspect.cs" Line="18" Column="89" />
     </Files>
   </MonoDevelop.Ide.Workbench>
