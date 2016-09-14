@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 		
 		//When both axes are called at the same time the player wil move slightly faster
-		//THis can be fixed by changing the speed when this occurs
+		//This can be fixed by changing the speed when this occurs
 		if(Input.GetAxisRaw ("Vertical") == 1 && Input.GetAxisRaw ("Horizontal") == 1){
 			currentSpeed = speedDiag;
 		}

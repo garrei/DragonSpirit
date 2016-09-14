@@ -17,6 +17,8 @@ public class PlayerAttack : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		//fireRate1 and fireRate 2 are used to determine the rate of fire, duh
+		//Uses Time.time to be sure it is as consistent as possible
 		if(Input.GetButton("Fire1") && Time.time > nextFire){
 			nextFire = Time.time + fireRate1;
 			Instantiate (equippedWeaponForward, myTransform.position, Quaternion.identity);
