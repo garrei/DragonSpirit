@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour {
 	float currentSpeed, speedNormal = 5, speedDiag;
 	public bool canMoveLeft = true, canMoveRight = true;
 	float movement = 0;
+	public static int playerScore = 0;
 
 	//Camera
 	public Camera cam;
