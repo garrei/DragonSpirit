@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraAspect.cs" />
      <Compile Include="Assets\Scripts\Enemies\RowenAI\KopteraBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Enemies\RyanAI\AlligatorBehaviour.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
