@@ -10,10 +10,6 @@ public class PlayerController : MonoBehaviour {
 	float movement = 0;
 	public static int playerScore = 0;
 
-	//Camera
-	public Camera cam;
-	float camHeight, camWidth;
-
 	// Use this for initialization
 	void Start () {
 		myTransform = transform;
@@ -45,27 +41,23 @@ public class PlayerController : MonoBehaviour {
 			currentSpeed = speedNormal;
 		}
 
-		//Setting camera constraint variables
-		camHeight = 2* cam.orthographicSize;
-		camWidth = camHeight * cam.aspect;
-
 		//Movement constraints
 		//X axis camera constraints
-		if(myTransform.position.x > camWidth/2 - camWidth/40){
-			myTransform.position = new Vector2 (camWidth/2 - camWidth/40,myTransform.position.y);
+		if(myTransform.position.x > 3.7f){
+			myTransform.position = new Vector2 (3.7f,myTransform.position.y);
 			canMoveRight = false;
 		}
-		if(myTransform.position.x < -camWidth/2 + camWidth/40){
-			myTransform.position = new Vector2 (-camWidth/2 + camWidth/40,myTransform.position.y);
+		if(myTransform.position.x < -3.7f){
+			myTransform.position = new Vector2 (-3.7f,myTransform.position.y);
 			canMoveLeft = false;
 		}
 
 		//Y axis camera constraints
-		if(myTransform.position.y > camHeight-camHeight/13){
-			myTransform.position = new Vector2 (myTransform.position.x,camHeight-camHeight/13);
+		if(myTransform.position.y > 9.25f){
+			myTransform.position = new Vector2 (myTransform.position.x,9.25f);
 		}
-		if(myTransform.position.y < camHeight/30){
-			myTransform.position = new Vector2 (myTransform.position.x,camHeight/30);
+		if(myTransform.position.y < 0.4f){
+			myTransform.position = new Vector2 (myTransform.position.x,0.4f);
 		}
 
 		//Fixing the jittering of the terrain
