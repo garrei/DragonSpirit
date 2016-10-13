@@ -1,8 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemies\RowenAI\GraiaBehaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyProjectile.cs">
     <Files>
-      <File FileName="Assets\Scripts\Enemies\RowenAI\GraiaBehaviour.cs" Line="45" Column="43" />
+      <File FileName="Assets\Scripts\EnemyProjectile.cs" Line="11" Column="27" />
+      <File FileName="Assets\Scripts\Enemies\RowenAI\GraiaBehaviour.cs" Line="12" Column="54" />
+      <File FileName="Assets\Scripts\Enemies\RowenAI\KopteraBehaviour.cs" Line="28" Column="1" />
+      <File FileName="Assets\Scripts\Enemies\RowenAI\BulletFiringGraiaBehaviour.cs" Line="38" Column="72" />
+      <File FileName="Assets\Scripts\OffScreenDestroy.cs" Line="16" Column="124" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
