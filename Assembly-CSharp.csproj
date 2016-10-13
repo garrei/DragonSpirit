@@ -51,9 +51,11 @@
      <Compile Include="Assets\Scripts\Enemies\RyanAI\AlligatorBehaviour.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyProjectile.cs" />
+     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\OffScreenDestroy.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\TerrainMove.cs" />
      <Compile Include="Assets\Scripts\Weapons\primaryNormal.cs" />
      <Compile Include="Assets\Scripts\Weapons\secondaryNormal.cs" />
