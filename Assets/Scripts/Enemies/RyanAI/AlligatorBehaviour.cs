@@ -30,7 +30,7 @@ public class AlligatorBehaviour : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
+
 		if (myTransform.position.y < playerTransform.position.y + rangeVertical && myTransform.position.x < playerTransform.position.x + rangeHorizontal && myTransform.position.x > playerTransform.position.x - rangeHorizontal && myTransform.position.y > playerTransform.position.y) {
 
 			speedVertical = 0;

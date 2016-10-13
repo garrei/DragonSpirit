@@ -28,7 +28,6 @@ public class GraiaBehaviour : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
 		//This moves the transform left and right and flips the sprite accordingly
 		if (myTransform.position.x > playerTransform.position.x + rangeHorizontal && myTransform.position.y > playerTransform.position.y) {
 			moveDirectionHorizontal = Vector2.left;
@@ -42,6 +41,6 @@ public class GraiaBehaviour : MonoBehaviour {
 		}
 		myTransform.Translate (Vector2.down* Time.deltaTime * speedVertical);
 		myTransform.Translate (moveDirectionHorizontal * Time.deltaTime * speedHorizontal);
-		anim.SetBool ("isTurning",isTurning);   
+		anim.SetBool ("isTurning",isTurning);
 	}
 }
