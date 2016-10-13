@@ -1,11 +1,18 @@
 fileFormatVersion: 2
 guid: e592bb25a4243d049b2fa89e5ef6eefa
-timeCreated: 1476070262
+timeCreated: 1476073132
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: alligatorSprite_1
     21300002: alligatorSprite_0
+    21300004: alligatorSprite_10
+    21300006: alligatorSprite_11
+    21300008: alligatorSprite_19
+    21300010: alligatorSprite_23
+    21300012: alligatorSprite_24
+    21300014: alligatorSprite_25
+    21300016: alligatorSprite_26
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,41 +59,139 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: alligatorSprite_1
+    - name: alligatorSprite_10
       rect:
         serializedVersion: 2
-        x: 152
-        y: 328
-        width: 46
-        height: 139
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -22, y: 69.5}
-        - {x: -22, y: -69.5}
-        - {x: 10, y: -69.5}
-        - {x: 23, y: -58.5}
-        - {x: 23, y: 69.5}
-    - name: alligatorSprite_0
-      rect:
-        serializedVersion: 2
-        x: 39
+        x: 40
         y: 327
-        width: 46
+        width: 44
         height: 139
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -22, y: 69.5}
-        - {x: -23, y: 66.5}
-        - {x: -23, y: -1.5}
-        - {x: -14, y: -69.5}
-        - {x: 13, y: -69.5}
-        - {x: 22, y: -39.5}
+      - - {x: 13, y: 69.5}
+        - {x: -21, y: 69.5}
+        - {x: -20, y: 64.5}
+        - {x: -22, y: 59.5}
+        - {x: -22, y: -13.5}
+        - {x: -20, y: -31.5}
+        - {x: -11, y: -68.5}
+        - {x: -7, y: -69.5}
+        - {x: 10, y: -69.5}
+        - {x: 16, y: -59.5}
+        - {x: 22, y: -27.5}
         - {x: 22, y: 63.5}
-        - {x: 14, y: 69.5}
+    - name: alligatorSprite_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 326
+        width: 48
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 71}
+        - {x: -20, y: 65}
+        - {x: -20, y: -71}
+        - {x: 16, y: -71}
+        - {x: 24, y: -41}
+        - {x: 24, y: 71}
+    - name: alligatorSprite_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 159
+        width: 44
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 74.5}
+        - {x: -22, y: -74.5}
+        - {x: 18, y: -74.5}
+        - {x: 22, y: -58.5}
+        - {x: 22, y: 66.5}
+        - {x: 2, y: 74.5}
+    - name: alligatorSprite_23
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 44
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 69.5}
+        - {x: -21, y: 69.5}
+        - {x: -20, y: 64.5}
+        - {x: -22, y: 59.5}
+        - {x: -22, y: -13.5}
+        - {x: -20, y: -31.5}
+        - {x: -11, y: -68.5}
+        - {x: -7, y: -69.5}
+        - {x: 10, y: -69.5}
+        - {x: 16, y: -59.5}
+        - {x: 22, y: -27.5}
+        - {x: 22, y: 63.5}
+    - name: alligatorSprite_24
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 50
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 69.5}
+        - {x: -19, y: 53.5}
+        - {x: -19, y: -47.5}
+        - {x: -13, y: -69.5}
+        - {x: 19, y: -69.5}
+        - {x: 25, y: -42.5}
+        - {x: 25, y: 69.5}
+    - name: alligatorSprite_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1
+        width: 42
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 69}
+        - {x: -21, y: -51}
+        - {x: -13, y: -67}
+        - {x: -8, y: -69}
+        - {x: 14, y: -69}
+        - {x: 21, y: -54}
+        - {x: 21, y: 69}
+    - name: alligatorSprite_26
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1
+        width: 47
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 65}
+        - {x: -20.5, y: -69}
+        - {x: 19.5, y: -69}
+        - {x: 23.5, y: -46}
+        - {x: 23.5, y: 69}
+        - {x: -12.5, y: 69}
     outline: []
   spritePackingTag: 
   userData: 
