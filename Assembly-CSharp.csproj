@@ -49,8 +49,10 @@
      <Compile Include="Assets\Scripts\Enemies\RowenAI\GraiaBehaviour.cs" />
      <Compile Include="Assets\Scripts\Enemies\RowenAI\KopteraBehaviour.cs" />
      <Compile Include="Assets\Scripts\Enemies\RyanAI\AlligatorBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Enemies\RyanAI\InsectLoveEarthBehaviour.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyProjectile.cs" />
+     <Compile Include="Assets\Scripts\EnemyProjectileTowardsPlayer.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\OffScreenDestroy.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />

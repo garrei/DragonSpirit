@@ -6,14 +6,14 @@ public class AlligatorBehaviour : MonoBehaviour {
 	Transform playerTransform;
 	Transform myTransform;
 
-	public GameObject alligatorProjectile;
-	int speedVertical = 2;
-	int speedHorizontal = 0;
+	public GameObject myProjectile;
+	float shootCooldown;
+	float speedVertical = 1.5f;
 	float rangeVertical = 4;
 	float rangeHorizontal = 10f;
 
+	Vector3 bulletPosition;
 	Vector3 moveDirectionVertical = Vector3.down;
-	Vector3 moveDirectionHorizontal = Vector3.right;
 	SpriteRenderer mySprite;
 
 	// Use this for initialization
@@ -24,11 +24,13 @@ public class AlligatorBehaviour : MonoBehaviour {
 		myTransform = transform;
 
 		mySprite = GetComponent <SpriteRenderer> ();
+
+
 	}
 
 	// Update is called once per frame
 	void Update () {
-
+		
 		if (myTransform.position.y < playerTransform.position.y + rangeVertical && myTransform.position.x < playerTransform.position.x + rangeHorizontal && myTransform.position.x > playerTransform.position.x - rangeHorizontal && myTransform.position.y > playerTransform.position.y) {
 
 			speedVertical = 0;
@@ -36,15 +38,25 @@ public class AlligatorBehaviour : MonoBehaviour {
 			mySprite.flipY = false;
 		}
 		if (myTransform.position.y < playerTransform.position.y - 1) {
-			speedVertical = 2;
+			speedVertical = 1.5f;
 			mySprite.flipY = false;
 		}
 
 		myTransform.Translate (moveDirectionVertical * Time.deltaTime * speedVertical);
+		bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.5f);
 	}
 
 	void Attack ()
 	{
+		if (shootCooldown <= Time.time)
+		{
+			GameObject bullet = (GameObject)Instantiate (myProjectile);
+			bullet.transform.position = bulletPosition;
+			Vector2 direction = playerTransform.transform.position - bullet.transform.position;
+			bullet.GetComponent<EnemyProjectileTowardsPlayer>().setDirection (direction);
+	
+			shootCooldown = Time.time + 2f;
+		}
 
 	}
 }
