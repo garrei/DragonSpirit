@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CameraAspect : MonoBehaviour {
+public class cameraAspect : MonoBehaviour {
 
 	public Camera letterbox;
 	public Camera mainCamera;

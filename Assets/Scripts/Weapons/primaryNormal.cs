@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PrimaryNormal : MonoBehaviour {
+public class primaryNormal : MonoBehaviour {
 
 	int speed = 30;
 	Rigidbody2D rb;

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SecondaryNormal : MonoBehaviour {
+public class secondaryNormal : MonoBehaviour {
 
 	int speed = 8;
 	float shrinkSpeed = 1.5f;
