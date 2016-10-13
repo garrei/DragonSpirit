@@ -1,18 +1,18 @@
 fileFormatVersion: 2
 guid: e592bb25a4243d049b2fa89e5ef6eefa
-timeCreated: 1476073132
+timeCreated: 1476348489
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: alligatorSprite_1
     21300002: alligatorSprite_0
-    21300004: alligatorSprite_10
-    21300006: alligatorSprite_11
-    21300008: alligatorSprite_19
-    21300010: alligatorSprite_23
-    21300012: alligatorSprite_24
-    21300014: alligatorSprite_25
-    21300016: alligatorSprite_26
+    21300004: alligatorSprite_idle1
+    21300006: alligatorSprite_idle2
+    21300008: alligatorSprite_attack
+    21300010: alligatorSprite_Submerge1
+    21300012: alligatorSprite_Submerge2
+    21300014: alligatorSprite_Submerge3
+    21300016: alligatorSprite_Submerge4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -59,7 +59,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: alligatorSprite_10
+    - name: alligatorSprite_idle1
       rect:
         serializedVersion: 2
         x: 40
@@ -82,7 +82,7 @@ TextureImporter:
         - {x: 16, y: -59.5}
         - {x: 22, y: -27.5}
         - {x: 22, y: 63.5}
-    - name: alligatorSprite_11
+    - name: alligatorSprite_idle2
       rect:
         serializedVersion: 2
         x: 149
@@ -99,7 +99,7 @@ TextureImporter:
         - {x: 16, y: -71}
         - {x: 24, y: -41}
         - {x: 24, y: 71}
-    - name: alligatorSprite_19
+    - name: alligatorSprite_attack
       rect:
         serializedVersion: 2
         x: 41
@@ -116,7 +116,7 @@ TextureImporter:
         - {x: 22, y: -58.5}
         - {x: 22, y: 66.5}
         - {x: 2, y: 74.5}
-    - name: alligatorSprite_23
+    - name: alligatorSprite_Submerge1
       rect:
         serializedVersion: 2
         x: 22
@@ -139,7 +139,7 @@ TextureImporter:
         - {x: 16, y: -59.5}
         - {x: 22, y: -27.5}
         - {x: 22, y: 63.5}
-    - name: alligatorSprite_24
+    - name: alligatorSprite_Submerge2
       rect:
         serializedVersion: 2
         x: 77
@@ -157,7 +157,7 @@ TextureImporter:
         - {x: 19, y: -69.5}
         - {x: 25, y: -42.5}
         - {x: 25, y: 69.5}
-    - name: alligatorSprite_25
+    - name: alligatorSprite_Submerge3
       rect:
         serializedVersion: 2
         x: 146
@@ -165,7 +165,7 @@ TextureImporter:
         width: 42
         height: 138
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -21, y: 69}
@@ -175,10 +175,10 @@ TextureImporter:
         - {x: 14, y: -69}
         - {x: 21, y: -54}
         - {x: 21, y: 69}
-    - name: alligatorSprite_26
+    - name: alligatorSprite_Submerge4
       rect:
         serializedVersion: 2
-        x: 204
+        x: 203
         y: 1
         width: 47
         height: 138
@@ -186,12 +186,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -20.5, y: 65}
-        - {x: -20.5, y: -69}
-        - {x: 19.5, y: -69}
-        - {x: 23.5, y: -46}
+      - - {x: -15.5, y: 69}
+        - {x: -19.5, y: 53}
+        - {x: -19.5, y: -48}
+        - {x: -11.5, y: -69}
+        - {x: 11.5, y: -69}
+        - {x: 23.5, y: -40}
         - {x: 23.5, y: 69}
-        - {x: -12.5, y: 69}
     outline: []
   spritePackingTag: 
   userData: 
