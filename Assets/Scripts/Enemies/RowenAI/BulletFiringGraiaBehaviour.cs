@@ -10,7 +10,7 @@ public class BulletFiringGraiaBehaviour : MonoBehaviour {
 	int speedHorizontal = 2;
 	bool isTurning = false;
 	float rangeVertical = 2;
-	float rangeHorizontal = 1.5f;
+	float rangeHorizontal = 5f;
 	Vector3 moveDirectionVertical = Vector3.down;
 	Vector3 moveDirectionHorizontal = new Vector2 (0,0);
 	SpriteRenderer mySprite;

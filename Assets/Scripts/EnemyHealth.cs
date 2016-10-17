@@ -6,12 +6,22 @@ public class EnemyHealth : MonoBehaviour {
 	public int health = 1;
 	public bool isGrounded = false;
 	public int score = 0;
+	Transform myTransform;
 	
 	// Update is called once per frame
+	void Start (){
+		myTransform = transform;
+	}
+
 	void Update () {
-		if (health < 1){
+		
+		if (health < 1 && myTransform.parent == null){
 			PlayerController.playerScore += score;
 			Destroy (gameObject);
+		}
+		if (health < 1 && myTransform.parent == true){
+			PlayerController.playerScore += score;
+			Destroy (myTransform.parent.parent);
 		}
 	}
 		
