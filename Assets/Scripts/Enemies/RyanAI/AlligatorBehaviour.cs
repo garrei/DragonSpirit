@@ -50,6 +50,7 @@ public class AlligatorBehaviour : MonoBehaviour {
 	{
 		if (shootCooldown <= Time.time)
 		{
+			//Animator Script for attacking Will Go Here
 			GameObject bullet = (GameObject)Instantiate (myProjectile);
 			bullet.transform.position = bulletPosition;
 			Vector2 direction = playerTransform.transform.position - bullet.transform.position;

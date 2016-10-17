@@ -30,11 +30,11 @@ public class InsectLoveEarthBehaviour : MonoBehaviour {
 	{
 		if (shootCooldown <= Time.time)
 		{
+			//Animator Script for attacking Will Go Here
 			GameObject bullet = (GameObject)Instantiate (myProjectile);
 			bullet.transform.position = transform.position;
 			Vector2 direction = playerTransform.transform.position - bullet.transform.position;
 			bullet.GetComponent<EnemyProjectileTowardsPlayer>().setDirection (direction);
-			//Attack Animation goes here
 			shootCooldown = Time.time + 2f;
 		}
 
