@@ -17,6 +17,5 @@ public class ScoreCounter : MonoBehaviour {
 	void Update () 
 	{
 		levelScore = levelScore += scoreIncreaseSpeed * Time.deltaTime;
-		Debug.Log (levelScore.ToString ());
 	}
 }
