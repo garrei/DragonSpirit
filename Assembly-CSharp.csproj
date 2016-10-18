@@ -70,6 +70,15 @@
      <Compile Include="Assets\Scripts\Weapons\primaryNormal.cs" />
      <Compile Include="Assets\Scripts\Weapons\secondaryNormal.cs" />
      <Compile Include="Assets\Scripts\cameraAspect.cs" />
+     <None Include="Assets\Audio\Music\Menu Music Credit.txt" />
+     <None Include="Assets\Audio\Music\Menu2 Credit.txt" />
+     <None Include="Assets\Audio\Music\Hero Theme Credit.txt" />
+     <None Include="Assets\Audio\Music\Heroic Demise Credit.txt" />
+     <None Include="Assets\Audio\Music\Victory Credit.txt" />
+     <None Include="Assets\Audio\SFX\Large Monster Hit and Death Sound Credits.txt" />
+     <None Include="Assets\Audio\Music\Boss Battle Credit.txt" />
+     <None Include="Assets\Audio\SFX\Foom Credit.txt" />
+     <None Include="Assets\Audio\SFX\Remainder effects Credit.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
