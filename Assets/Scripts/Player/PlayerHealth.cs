@@ -15,6 +15,7 @@ public class PlayerHealth : MonoBehaviour {
 	//This checks whether the bullet should hit the enemy or not depending on it being airbourne or not
 	void OnTriggerEnter2D (Collider2D other){
 		if(other.CompareTag("EnemyBullet")){
+			Destroy (other.gameObject);
 			health--;
 		}
 	}

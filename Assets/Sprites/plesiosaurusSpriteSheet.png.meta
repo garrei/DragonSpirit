@@ -1,0 +1,526 @@
+fileFormatVersion: 2
+guid: 526a330b84fe3804c90411d874673d6d
+timeCreated: 1476772546
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: plesiosaurusSpriteSheet_0
+    21300002: plesiosaurusSpriteSheet_1
+    21300004: plesiosaurusSpriteSheet_2
+    21300006: plesiosaurusSpriteSheet_3
+    21300008: plesiosaurusSpriteSheet_4
+    21300010: plesiosaurusSpriteSheet_5
+    21300012: plesiosaurusSpriteSheet_6
+    21300014: plesiosaurusSpriteSheet_7
+    21300016: plesiosaurusSpriteSheet_8
+    21300018: plesiosaurusSpriteSheet_9
+    21300020: plesiosaurusSpriteSheet_10
+    21300022: plesiosaurusSpriteSheet_11
+    21300024: plesiosaurusSpriteSheet_12
+    21300026: plesiosaurusSpriteSheet_13
+    21300028: plesiosaurusSpriteSheet_14
+    21300030: plesiosaurusSpriteSheet_15
+    21300032: plesiosaurusSpriteSheet_16
+    21300034: plesiosaurusSpriteSheet_22
+    21300036: plesiosaurusSpriteSheet_23
+    21300038: plesiosaurusSpriteSheet_28
+    21300040: plesiosaurusSpriteSheet_31
+    21300042: plesiosaurusSpriteSheet_43
+    21300044: plesiosaurusSpriteSheet_44
+    21300046: plesiosaurusSpriteSheet_45
+    21300048: plesiosaurusSpriteSheet_47
+    21300050: plesiosaurusSpriteSheet_48
+    21300052: plesiosaurusSpriteSheet_49
+    21300054: plesiosaurusSpriteSheet_50
+    21300056: plesiosaurusSpriteSheet_51
+    21300058: plesiosaurusSpriteSheet_53
+    21300060: plesiosaurusSpriteSheet_54
+    21300062: plesiosaurusSpriteSheet_56
+    21300064: plesiosaurusSpriteSheet_24
+    21300066: plesiosaurusSpriteSheet_26
+    21300068: plesiosaurusSpriteSheet_33
+    21300070: plesiosaurusSpriteSheet_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: plesiosaurusSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 430
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 31}
+        - {x: 6, y: 25}
+        - {x: 4, y: 12}
+        - {x: 4, y: 10}
+        - {x: 4, y: 11}
+        - {x: -8, y: 29}
+        - {x: -12, y: 31}
+        - {x: -38, y: 31}
+        - {x: -38, y: 2}
+        - {x: -31, y: -28}
+        - {x: -18, y: -31}
+        - {x: -14, y: -31}
+        - {x: -14, y: -25}
+        - {x: -13, y: -31}
+        - {x: 20, y: -31}
+        - {x: 38, y: -8}
+        - {x: 38, y: 31}
+    - name: plesiosaurusSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 418
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 34}
+        - {x: 8.5, y: 29}
+        - {x: 5.5, y: 13}
+        - {x: 5.5, y: 11}
+        - {x: 5.5, y: 12}
+        - {x: 1.5, y: 17}
+        - {x: -8.5, y: 27}
+        - {x: -17.5, y: 34}
+        - {x: -32.5, y: 34}
+        - {x: -38.5, y: 26}
+        - {x: -38.5, y: -19}
+        - {x: -10.5, y: -42}
+        - {x: 23.5, y: -42}
+        - {x: 39.5, y: -9}
+        - {x: 39.5, y: 28}
+        - {x: 26.5, y: 34}
+      - - {x: -39.5, y: 36}
+        - {x: -37.5, y: 36}
+        - {x: -35.5, y: 38}
+        - {x: -36.5, y: 41}
+        - {x: -39.5, y: 41}
+      - - {x: 1.5, y: 42}
+        - {x: 3.5, y: 39}
+        - {x: 12.5, y: 39}
+        - {x: 14.5, y: 40}
+        - {x: 14.5, y: 42}
+    - name: plesiosaurusSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 458
+        width: 63
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 19.5}
+        - {x: -7.5, y: 19.5}
+        - {x: -28.5, y: 15.5}
+        - {x: -31.5, y: 10.5}
+        - {x: -31.5, y: -17.5}
+        - {x: -29.5, y: -19.5}
+        - {x: 16.5, y: -19.5}
+        - {x: 27.5, y: -8.5}
+        - {x: 31.5, y: 0.5}
+        - {x: 31.5, y: 16.5}
+      - - {x: 28.5, y: -9.5}
+        - {x: 30.5, y: -11.5}
+        - {x: 31.5, y: -11.5}
+        - {x: 31.5, y: -6.5}
+        - {x: 29.5, y: -6.5}
+    - name: plesiosaurusSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 444
+        width: 74
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: -4.5}
+        - {x: 36, y: 7.5}
+        - {x: 36, y: 26.5}
+        - {x: -25, y: 26.5}
+        - {x: -37, y: 22.5}
+        - {x: -37, y: -26.5}
+        - {x: -2, y: -26.5}
+        - {x: 15, y: -22.5}
+        - {x: 14, y: -2.5}
+        - {x: 13, y: -0.5}
+        - {x: 17, y: -2.5}
+      - - {x: 32, y: -4.5}
+        - {x: 32, y: -5.5}
+        - {x: 35, y: -8.5}
+        - {x: 37, y: -8.5}
+        - {x: 37, y: -2.5}
+        - {x: 34, y: -2.5}
+      - - {x: -37, y: 8.5}
+        - {x: -34, y: 9.5}
+        - {x: -34, y: 14.5}
+        - {x: -36, y: 16.5}
+        - {x: -37, y: 16.5}
+    - name: plesiosaurusSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 403
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: plesiosaurusSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 407
+        width: 63
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 19.5}
+        - {x: -31.5, y: -4.5}
+        - {x: -20.5, y: -19.5}
+        - {x: 31.5, y: -19.5}
+        - {x: 31.5, y: 17.5}
+        - {x: 29.5, y: 19.5}
+      - - {x: -28.5, y: -10.5}
+        - {x: -28.5, y: -7.5}
+        - {x: -31.5, y: -6.5}
+        - {x: -31.5, y: -11.5}
+    - name: plesiosaurusSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 393
+        width: 73
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 26.5}
+        - {x: -26.5, y: 26.5}
+        - {x: -35.5, y: 18.5}
+        - {x: -35.5, y: -1.5}
+        - {x: -4.5, y: -26.5}
+        - {x: 33.5, y: -26.5}
+        - {x: 36.5, y: -18.5}
+        - {x: 36.5, y: 12.5}
+        - {x: 30.5, y: 23.5}
+      - - {x: -36.5, y: -8.5}
+        - {x: -34.5, y: -8.5}
+        - {x: -31.5, y: -5.5}
+        - {x: -32.5, y: -2.5}
+        - {x: -36.5, y: -2.5}
+    - name: plesiosaurusSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 347
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: plesiosaurusSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 178
+        width: 130
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: -59.5}
+        - {x: -58, y: -62.5}
+        - {x: -50, y: -75.5}
+        - {x: -43, y: -75.5}
+        - {x: -44, y: -66.5}
+        - {x: -51, y: -58.5}
+        - {x: -56, y: -58.5}
+      - - {x: 44, y: -58.5}
+        - {x: 56, y: -53.5}
+        - {x: 65, y: -45.5}
+        - {x: 65, y: -33.5}
+        - {x: 22, y: 52.5}
+        - {x: 4, y: 75.5}
+        - {x: -18, y: 75.5}
+        - {x: -65, y: -1.5}
+        - {x: -65, y: -75.5}
+        - {x: 59, y: -75.5}
+        - {x: 63, y: -58.5}
+        - {x: 54, y: -56.5}
+        - {x: 47, y: -56.5}
+      - - {x: 61, y: -56.5}
+        - {x: 61, y: -58.5}
+        - {x: 63, y: -60.5}
+        - {x: 65, y: -60.5}
+        - {x: 65, y: -54.5}
+        - {x: 63, y: -54.5}
+    - name: plesiosaurusSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 178
+        width: 123
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: -59.5}
+        - {x: -56.5, y: -61.5}
+        - {x: -56.5, y: -65.5}
+        - {x: -44.5, y: -75.5}
+        - {x: -36.5, y: -75.5}
+        - {x: -36.5, y: -71.5}
+        - {x: -47.5, y: -59.5}
+      - - {x: 9.5, y: 75.5}
+        - {x: -6.5, y: 75.5}
+        - {x: -47.5, y: 60.5}
+        - {x: -61.5, y: -0.5}
+        - {x: -61.5, y: -75.5}
+        - {x: 34.5, y: -75.5}
+        - {x: 61.5, y: -60.5}
+        - {x: 61.5, y: -25.5}
+        - {x: 32.5, y: 58.5}
+      - - {x: 43.5, y: -65.5}
+        - {x: 34.5, y: -73.5}
+        - {x: 34.5, y: -75.5}
+        - {x: 52.5, y: -75.5}
+        - {x: 52.5, y: -66.5}
+        - {x: 49.5, y: -65.5}
+      - - {x: 54.5, y: -61.5}
+        - {x: 54.5, y: -63.5}
+        - {x: 55.5, y: -65.5}
+        - {x: 61.5, y: -65.5}
+        - {x: 61.5, y: -58.5}
+        - {x: 58.5, y: -58.5}
+    - name: plesiosaurusSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 348
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: plesiosaurusSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 185
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.5, y: 27}
+        - {x: -88.5, y: 27}
+        - {x: -92.5, y: 19}
+        - {x: -92.5, y: -31}
+        - {x: -81.5, y: -43}
+        - {x: -51.5, y: -43}
+        - {x: -49.5, y: -38}
+        - {x: -49.5, y: -31}
+        - {x: -54.5, y: -21}
+      - - {x: 73.5, y: 29}
+        - {x: 63.5, y: 29}
+        - {x: 64.5, y: 14}
+        - {x: 72.5, y: 10}
+        - {x: 70.5, y: 0}
+        - {x: 71.5, y: 3}
+        - {x: 71.5, y: 9}
+        - {x: 68.5, y: 11}
+        - {x: 59.5, y: 3}
+        - {x: 56.5, y: -27}
+        - {x: 56.5, y: -41}
+        - {x: 59.5, y: -43}
+        - {x: 89.5, y: -43}
+        - {x: 92.5, y: -42}
+        - {x: 92.5, y: 19}
+        - {x: 90.5, y: 22}
+      - - {x: 30.5, y: 2}
+        - {x: 31.5, y: -1}
+        - {x: 36.5, y: -3}
+        - {x: 38.5, y: -3}
+        - {x: 40.5, y: 0}
+        - {x: 39.5, y: 3}
+        - {x: 32.5, y: 4}
+      - - {x: -43.5, y: 42}
+        - {x: -44.5, y: 38}
+        - {x: -44.5, y: 3}
+        - {x: -37.5, y: -1}
+        - {x: -29.5, y: -1}
+        - {x: -19.5, y: 3}
+        - {x: -11.5, y: 20}
+        - {x: -11.5, y: 30}
+        - {x: -23.5, y: 42}
+      - - {x: -49.5, y: 20}
+        - {x: -51.5, y: 19}
+        - {x: -51.5, y: 8}
+        - {x: -46.5, y: 3}
+        - {x: -44.5, y: 2}
+        - {x: -40.5, y: 2}
+        - {x: -39.5, y: 4}
+        - {x: -39.5, y: 9}
+        - {x: -44.5, y: 20}
+      - - {x: -67.5, y: 18}
+        - {x: -68.5, y: 16}
+        - {x: -68.5, y: 9}
+        - {x: -64.5, y: 4}
+        - {x: -59.5, y: 4}
+        - {x: -58.5, y: 5}
+        - {x: -58.5, y: 11}
+        - {x: -63.5, y: 18}
+      - - {x: 31.5, y: 43}
+        - {x: 24.5, y: 37}
+        - {x: 24.5, y: 25}
+        - {x: 29.5, y: 21}
+        - {x: 31.5, y: 21}
+        - {x: 29.5, y: 19}
+        - {x: 32.5, y: 4}
+        - {x: 48.5, y: 4}
+        - {x: 53.5, y: 15}
+        - {x: 53.5, y: 36}
+        - {x: 45.5, y: 43}
+      - - {x: 54.5, y: 23}
+        - {x: 49.5, y: 14}
+        - {x: 49.5, y: 4}
+        - {x: 53.5, y: 4}
+        - {x: 56.5, y: 5}
+        - {x: 60.5, y: 10}
+        - {x: 60.5, y: 23}
+    - name: plesiosaurusSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 21
+        width: 229
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -99.5, y: -4.5}
+        - {x: -110.5, y: -11.5}
+        - {x: -114.5, y: -23.5}
+        - {x: -114.5, y: -50.5}
+        - {x: -49.5, y: -50.5}
+        - {x: -49.5, y: -5.5}
+        - {x: -54.5, y: -4.5}
+      - - {x: -48.5, y: -45.5}
+        - {x: -53.5, y: -45.5}
+        - {x: -57.5, y: -49.5}
+        - {x: -57.5, y: -50.5}
+        - {x: -47.5, y: -50.5}
+        - {x: -46.5, y: -49.5}
+        - {x: -46.5, y: -46.5}
+      - - {x: 84.5, y: -7.5}
+        - {x: 44.5, y: -7.5}
+        - {x: 43.5, y: -8.5}
+        - {x: 43.5, y: -25.5}
+        - {x: 58.5, y: -48.5}
+        - {x: 64.5, y: -50.5}
+        - {x: 105.5, y: -50.5}
+        - {x: 114.5, y: -37.5}
+        - {x: 114.5, y: -22.5}
+        - {x: 105.5, y: -14.5}
+      - - {x: -99.5, y: -17.5}
+        - {x: -100.5, y: -20.5}
+        - {x: -96.5, y: -24.5}
+        - {x: -91.5, y: -24.5}
+        - {x: -89.5, y: -22.5}
+        - {x: -89.5, y: -18.5}
+        - {x: -95.5, y: -17.5}
+      - - {x: 78.5, y: 7.5}
+        - {x: 74.5, y: 3.5}
+        - {x: 72.5, y: -0.5}
+        - {x: 72.5, y: -7.5}
+        - {x: 79.5, y: -7.5}
+        - {x: 85.5, y: -0.5}
+        - {x: 85.5, y: 6.5}
+        - {x: 83.5, y: 7.5}
+      - - {x: -59.5, y: 50.5}
+        - {x: -60.5, y: 29.5}
+        - {x: -60.5, y: 27.5}
+        - {x: -55.5, y: 20.5}
+        - {x: -47.5, y: 15.5}
+        - {x: -30.5, y: 15.5}
+        - {x: -21.5, y: 30.5}
+        - {x: -21.5, y: 44.5}
+        - {x: -26.5, y: 50.5}
+      - - {x: 24.5, y: 20.5}
+        - {x: 28.5, y: 16.5}
+        - {x: 50.5, y: 16.5}
+        - {x: 59.5, y: 22.5}
+        - {x: 59.5, y: 38.5}
+        - {x: 55.5, y: 50.5}
+        - {x: 27.5, y: 50.5}
+        - {x: 24.5, y: 38.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
