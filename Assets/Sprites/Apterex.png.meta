@@ -1,9 +1,14 @@
 fileFormatVersion: 2
 guid: cdb3f5760a44aa042a0a68221ff4478c
-timeCreated: 1476847486
+timeCreated: 1476849203
 licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Apterex1
+    21300002: Apterex2
+    21300004: Apterex3
+    21300006: Apterex4
+    21300008: ApterexFeather
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,26 +35,124 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Apterex1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 79
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 20.5}
+        - {x: 14.5, y: 18.5}
+        - {x: 13.5, y: 26.5}
+        - {x: 12.5, y: 30.5}
+        - {x: -25.5, y: 30.5}
+        - {x: -39.5, y: 19.5}
+        - {x: -39.5, y: -0.5}
+        - {x: -8.5, y: -30.5}
+        - {x: 6.5, y: -30.5}
+        - {x: 12.5, y: -27.5}
+        - {x: 37.5, y: 4.5}
+        - {x: 37.5, y: 14.5}
+        - {x: 28.5, y: 19.5}
+    - name: Apterex2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 48
+        width: 79
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 18.5}
+        - {x: 16.5, y: 30.5}
+        - {x: -39.5, y: 30.5}
+        - {x: -39.5, y: -21.5}
+        - {x: -35.5, y: -30.5}
+        - {x: 11.5, y: -30.5}
+        - {x: 39.5, y: -9.5}
+        - {x: 39.5, y: 10.5}
+        - {x: 38.5, y: 11.5}
+        - {x: 33.5, y: 15.5}
+        - {x: 27.5, y: 19.5}
+    - name: Apterex3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 47
+        width: 79
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 30.5}
+        - {x: -37.5, y: 21.5}
+        - {x: -39.5, y: 11.5}
+        - {x: -39.5, y: -1.5}
+        - {x: -11.5, y: -30.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 39.5, y: -10.5}
+        - {x: 39.5, y: 20.5}
+        - {x: 28.5, y: 30.5}
+    - name: Apterex4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 79
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 23.5}
+        - {x: 30.5, y: 30.5}
+        - {x: -26.5, y: 30.5}
+        - {x: -39.5, y: 22.5}
+        - {x: -39.5, y: -17.5}
+        - {x: -10.5, y: -30.5}
+        - {x: 6.5, y: -30.5}
+        - {x: 12.5, y: -18.5}
+        - {x: 35.5, y: -20.5}
+        - {x: 38.5, y: -15.5}
+    - name: ApterexFeather
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 5
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 

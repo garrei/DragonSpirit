@@ -1,17 +1,13 @@
 fileFormatVersion: 2
-guid: bb32222406a867b4d89685a0af5d7017
-timeCreated: 1476850325
+guid: 5211cd645be067f4cad831ded6f54f73
+timeCreated: 1476850165
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Aquasaurus1
-    21300002: Aquasaurus2
-    21300004: Aquasaurus3
-    21300006: Aquasaurus4
-    21300008: Aquasaurus2_0
-    21300010: Aquasaurus2_1
-    21300012: Aquasaurus2_2
-    21300014: Aquasaurus2_3
+    21300000: Koptera1
+    21300002: Koptera2
+    21300004: Koptera3
+    21300006: Koptera4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -58,46 +54,46 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Aquasaurus2_0
+    - name: Koptera1
       rect:
         serializedVersion: 2
-        x: 3
-        y: 7
-        width: 33
-        height: 29
+        x: 4
+        y: 5
+        width: 30
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Aquasaurus2_1
+    - name: Koptera2
       rect:
         serializedVersion: 2
-        x: 38
-        y: 7
-        width: 33
-        height: 29
+        x: 39
+        y: 5
+        width: 30
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Aquasaurus2_2
+    - name: Koptera3
       rect:
         serializedVersion: 2
-        x: 74
-        y: 7
-        width: 33
-        height: 29
+        x: 72
+        y: 4
+        width: 30
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Aquasaurus2_3
+    - name: Koptera4
       rect:
         serializedVersion: 2
-        x: 110
-        y: 7
-        width: 33
-        height: 29
+        x: 105
+        y: 5
+        width: 30
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

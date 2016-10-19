@@ -1,9 +1,19 @@
 fileFormatVersion: 2
 guid: 032d46ae1ba1aa34896972a1d1c7f6ff
-timeCreated: 1476676037
-licenseType: Free
+timeCreated: 1476848993
+licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Tyrannosaurus_Front1
+    21300002: Tyrannosaurus_Front2
+    21300004: Tyrannosaurus_Front3
+    21300006: Tyrannosaurus_Front4
+    21300008: Tyrannosaurus_Front_Attack
+    21300010: Tyrannosaurus_Left1
+    21300012: Tyrannosaurus_Left2
+    21300014: Tyrannosaurus_Left3
+    21300016: Tyrannosaurus_Left4
+    21300018: Tyrannosaurus_Left_Attack
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,26 +40,136 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Tyrannosaurus_Front1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 79
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tyrannosaurus_Front2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 79
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tyrannosaurus_Front3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 79
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tyrannosaurus_Front4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 78
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tyrannosaurus_Front_Attack
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 80
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tyrannosaurus_Left1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 55
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tyrannosaurus_Left2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 55
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tyrannosaurus_Left3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 55
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tyrannosaurus_Left4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 55
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tyrannosaurus_Left_Attack
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 54
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 
