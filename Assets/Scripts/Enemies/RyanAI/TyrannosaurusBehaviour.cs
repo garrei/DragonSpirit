@@ -7,16 +7,27 @@ public class TyrannosaurusBehaviour : MonoBehaviour {
 	Transform myTransform;
 	public GameObject myProjectile;
 	float shootCooldown;
+	float shootAnimCooldown;
+	bool isShoot;
+	int direction;
 	Vector3 bulletPosition;
-
+	Animator anim;
+	SpriteRenderer mySprite;
+	int timeTillMemes = 2;
 
 	// Use this for initialization
 	void Start () {
 		
 		playerTransform = GameObject.Find ("PlayerGraphic").transform;
 		myTransform = transform;
-		bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.0f);
-		//change bulletposition float to change where the bullet originates
+		bulletPosition = new Vector3(transform.position.x, transform.position.y);
+		anim = GetComponent <Animator> ();
+		anim.SetInteger ("direction",2);
+
+
+		mySprite = GetComponent <SpriteRenderer> ();
+
+
 	}
 
 	// Update is called once per frame
@@ -26,32 +37,37 @@ public class TyrannosaurusBehaviour : MonoBehaviour {
 			Attack ();
 			shootCooldown = Time.time + 2f;
 		}
-
-
+			
 		//if player is far enough to the right of the enemy
-		if (playerTransform.position.x - myTransform.position.x >= 3)
-		{
-			bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.0f);
-			//change bulletposition float to change bullet origin point
-			//Change to Sprite for this direction to face right
+		if (playerTransform.position.x - myTransform.position.x >= 0.5f) {
+			bulletPosition = new Vector3 (transform.position.x + 0.3f, transform.position.y);
+			anim.SetInteger ("direction", 1);
+
+			mySprite.flipX = true;
+
+		} else {
+			mySprite.flipX = false;
 		}
 
 		//if the player is far enough to the left of the enemy
-		if (playerTransform.position.x - myTransform.position.x >= -3)
+		if (playerTransform.position.x - myTransform.position.x <= -0.5f)
 		{
-			bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.0f);
-			//change bulletposition float to change bullet origin point
-			//Change to Sprite for this direction to face left
+			bulletPosition = new Vector3(transform.position.x - 0.3f, transform.position.y);
+			anim.SetInteger ("direction",1);
+
 		}
 
 		//if the player is in front of the enemy
-		if (playerTransform.position.x - myTransform.position.x >= -3 && playerTransform.position.x - myTransform.position.x <= 3)
+		if (playerTransform.position.x - myTransform.position.x >= -0.5f && playerTransform.position.x - myTransform.position.x <= 0.5f)
 		{
-			bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.0f);
-			//change bulletposition float to change bullet origin point
-			//Change to Sprite for this direction to face forwards
+			bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.2f);
+			anim.SetInteger ("direction",2);
+
 		}
-			
+		if(timeTillMemes < 1){
+			anim.SetBool ("isShoot",false);
+			timeTillMemes = 2;
+		}
 	}
 		
 
@@ -59,13 +75,14 @@ public class TyrannosaurusBehaviour : MonoBehaviour {
 	{
 		if (shootCooldown <= Time.time)
 		{
-			//Animator Script for attacking Will Go Here
+			anim.SetBool ("isShoot",true);
+			timeTillMemes--;
 			GameObject bullet = (GameObject)Instantiate (myProjectile);
-			bullet.transform.position = transform.position;
+			bullet.transform.position = bulletPosition;
 			Vector2 direction = playerTransform.transform.position - bullet.transform.position;
 			bullet.GetComponent<EnemyProjectileTowardsPlayer>().setDirection (direction);
-
 			shootCooldown = Time.time + 2f;
+
 		}
 
 	}
