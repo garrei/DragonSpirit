@@ -27,7 +27,7 @@ public class Eggs : MonoBehaviour {
 				Destroy (gameObject);
 			}
 			if(myColour == 2){
-				PlayerAttack.fireRate1 -= 0.5f;
+				PlayerAttack.fireRate1 -= 0.05f;
 				Destroy (gameObject);
 			}
 		}
