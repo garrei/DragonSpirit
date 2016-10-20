@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DestroyAfterTime.cs" />
+     <Compile Include="Assets\Scripts\Eggs.cs" />
      <Compile Include="Assets\Scripts\Enemies\RowenAI\ApterexBehaviour.cs" />
      <Compile Include="Assets\Scripts\Enemies\RowenAI\BulletFiringGraiaBehaviour.cs" />
      <Compile Include="Assets\Scripts\Enemies\RowenAI\GraiaBehaviour.cs" />

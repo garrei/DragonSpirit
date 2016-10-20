@@ -5,17 +5,27 @@ public class PlayerAttack : MonoBehaviour {
 
 	public GameObject equippedWeaponForward, equippedWeaponDown;
 	Transform myTransform;
-	float fireRate1 = 0.15f;
-	float fireRate2 = 1f;
+	public static float fireRate1 = 0.15f;
+	public static float fireRate2 = 1f;
 	float nextFire = 0;
 
 	// Use this for initialization
 	void Start () {
 		myTransform = transform;
+		fireRate1 = 0.15f;
+		fireRate2 = 1f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+		if(fireRate1 < 0.01f){
+			fireRate1 = 0.05f;
+		}
+
+		if(fireRate2 < 0.2f){
+			fireRate2 = 0.3333333333f;
+		}
 
 		//fireRate1 and fireRate 2 are used to determine the rate of fire, duh
 		//Uses Time.time to be sure it is as consistent as possible

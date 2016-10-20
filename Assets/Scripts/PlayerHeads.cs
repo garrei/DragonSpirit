@@ -6,10 +6,12 @@ public class PlayerHeads : MonoBehaviour {
 	GameObject oneHead;
 	GameObject twoHead;
 	GameObject threeHead;
-	public int powerLevel = 0;
+	public static int powerLevel = 0;
 
 	// Use this for initialization
 	void Start () {
+
+		powerLevel = 0;
 
 		oneHead = GameObject.Find ("PlayerGraphic1");
 		twoHead = GameObject.Find ("PlayerGraphic2");
