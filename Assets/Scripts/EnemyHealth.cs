@@ -6,6 +6,7 @@ public class EnemyHealth : MonoBehaviour {
 	public int health = 1;
 	public bool isGrounded = false;
 	public int score = 0;
+	public GameObject spawnOnDeath;
 	Transform myTransform;
 	
 	// Update is called once per frame
@@ -16,13 +17,22 @@ public class EnemyHealth : MonoBehaviour {
 	void Update () {
 		
 		if (health < 1 && myTransform.parent == null){
-			PlayerController.playerScore += score;
+			OnDeath ();
 			Destroy (gameObject);
 		}
-		if (health < 1 && myTransform.parent == true){
-			PlayerController.playerScore += score;
-			Destroy (myTransform.parent.parent);
+		if (health < 1 && myTransform.parent.parent != null){
+			OnDeath ();
+			Destroy (gameObject.transform.parent.parent.gameObject);
 		}
+		if (health < 1 && myTransform.parent != null){
+			OnDeath ();
+			Destroy (gameObject.transform.parent.gameObject);
+		}
+	}
+
+	void OnDeath (){
+		PlayerController.playerScore += score;
+		Instantiate (spawnOnDeath, myTransform.position,Quaternion.identity);
 	}
 		
 	//This checks whether the bullet should hit the enemy or not depending on it being airbourne or not
