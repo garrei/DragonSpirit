@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 5211cd645be067f4cad831ded6f54f73
-timeCreated: 1476850165
-licenseType: Pro
+timeCreated: 1476935664
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Koptera1
@@ -80,7 +80,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 72
-        y: 4
+        y: 5
         width: 30
         height: 15
       alignment: 0
