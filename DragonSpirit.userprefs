@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemies\RyanAI\ShellfishBehaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AudioController.cs">
     <Files>
-      <File FileName="Assets\Scripts\Enemies\RyanAI\ShellfishBehaviour.cs" Line="14" Column="45" />
-      <File FileName="Assets\Scripts\Enemies\RyanAI\AlligatorBehaviour.cs" Line="59" Column="41" />
-      <File FileName="Assets\Scripts\Enemies\RyanAI\ToboBehaviour.cs" Line="39" Column="1" />
+      <File FileName="Assets\Scripts\AudioController.cs" Line="22" Column="3" />
+      <File FileName="Assets\Scripts\Player\PlayerAttack.cs" Line="11" Column="44" />
+      <File FileName="Assets\Scripts\UIManager.cs" Line="38" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

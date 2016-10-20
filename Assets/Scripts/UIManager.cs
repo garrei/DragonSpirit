@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour {
 	public Text scoreText;
 	public Text highScoreText;
 	public Text areaNumber;
+	public static bool playHighScoreBrokenSound = false;
 
 	// Use this for initialization
 	void Awake () 
@@ -27,6 +28,7 @@ public class UIManager : MonoBehaviour {
 		{
 			highScore = ScoreCounter.levelScore;
 			PlayerPrefs.SetFloat("hs", highScore);
+			playHighScoreBrokenSound = true;
 		}
 
 		scoreText.text = Mathf.FloorToInt (ScoreCounter.levelScore).ToString ();	
