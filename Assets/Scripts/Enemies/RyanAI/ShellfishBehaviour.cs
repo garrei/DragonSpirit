@@ -4,49 +4,41 @@ using System.Collections;
 public class ShellfishBehaviour : MonoBehaviour {
 
 	Transform playerTransform;
+	Transform cameraTransform;
 	Transform myTransform;
-
-	float speed;
+	float speedVertical = 5f;
 	Vector2 _direction;
 	Animator anim;
 	bool gliding = false;
 	Vector3 bulletPosition;
-	Vector3 moveDirectionVertical = Vector3.down;
+	Vector3 moveDirectionVertical = Vector3.up;
 	SpriteRenderer mySprite;
 
 	// Use this for initialization
 	void Start () {
 		//Finding the player this way should make it more compatable between scenes
 		playerTransform = GameObject.Find ("PlayerGraphic").transform;
+		cameraTransform = GameObject.Find ("LetterboxCam").transform;
 		myTransform = transform;
 		anim = GetComponent <Animator> ();
 		mySprite = GetComponent <SpriteRenderer> ();
-		speed = 5f;
+
 
 
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
+		myTransform.Translate (moveDirectionVertical * Time.deltaTime * speedVertical);
 
-		if (myTransform.position.y < playerTransform.position.y + 7) 
+		if (myTransform.position.y > cameraTransform.position.y + 4.5f) 
 		{
-			gliding = true;
-		}
-
-		if (gliding == true)
-		{
-			anim.SetBool ("Gliding", true);
+			anim.SetBool ("Underwater", false);
 			gameObject.tag = "Airborne";
-			Vector2 position = transform.position;
-			position += _direction * speed * Time.deltaTime;
-			transform.position = position;
+			speedVertical = -5f;
 		}
-		if (gliding == false) 
-		{
-			Vector2 direction = playerTransform.transform.position - myTransform.position;
-			_direction = direction.normalized;
-		}
+
 
 			
 	}
