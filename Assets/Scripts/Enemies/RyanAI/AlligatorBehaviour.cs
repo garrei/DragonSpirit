@@ -7,11 +7,11 @@ public class AlligatorBehaviour : MonoBehaviour {
 	Transform myTransform;
 
 	public GameObject myProjectile;
-	float shootCooldown;
+	float shootCooldown = 2;
 	float speedVertical = 1.5f;
 	float rangeVertical = 4;
 	float rangeHorizontal = 10f;
-
+	Animator anim;
 	Vector3 bulletPosition;
 	Vector3 moveDirectionVertical = Vector3.down;
 	SpriteRenderer mySprite;
@@ -22,7 +22,7 @@ public class AlligatorBehaviour : MonoBehaviour {
 		playerTransform = GameObject.Find ("PlayerGraphic").transform;
 
 		myTransform = transform;
-
+		anim = GetComponent <Animator> ();
 		mySprite = GetComponent <SpriteRenderer> ();
 
 
@@ -41,6 +41,11 @@ public class AlligatorBehaviour : MonoBehaviour {
 			speedVertical = 1.5f;
 			mySprite.flipY = false;
 		}
+		if (shootCooldown <= Time.time)
+		{
+			Attack ();
+			shootCooldown = Time.time + 2f;
+		}
 
 		myTransform.Translate (moveDirectionVertical * Time.deltaTime * speedVertical);
 		bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.5f);
@@ -48,16 +53,13 @@ public class AlligatorBehaviour : MonoBehaviour {
 
 	void Attack ()
 	{
-		if (shootCooldown <= Time.time)
-		{
-			//Animator Script for attacking Will Go Here
+
+			anim.SetTrigger ("isShoot");
 			GameObject bullet = (GameObject)Instantiate (myProjectile);
 			bullet.transform.position = bulletPosition;
 			Vector2 direction = playerTransform.transform.position - bullet.transform.position;
 			bullet.GetComponent<EnemyProjectileTowardsPlayer>().setDirection (direction);
-	
-			shootCooldown = Time.time + 2f;
-		}
+			
 
 	}
 }

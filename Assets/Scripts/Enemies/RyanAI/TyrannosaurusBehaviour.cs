@@ -6,14 +6,13 @@ public class TyrannosaurusBehaviour : MonoBehaviour {
 	Transform playerTransform;
 	Transform myTransform;
 	public GameObject myProjectile;
-	float shootCooldown;
+	float shootCooldown = 2;
 	float shootAnimCooldown;
 	bool isShoot;
 	int direction;
 	Vector3 bulletPosition;
 	Animator anim;
 	SpriteRenderer mySprite;
-	int timeTillMemes = 2;
 
 	// Use this for initialization
 	void Start () {
@@ -64,26 +63,15 @@ public class TyrannosaurusBehaviour : MonoBehaviour {
 			anim.SetInteger ("direction",2);
 
 		}
-		if(timeTillMemes < 1){
-			anim.SetBool ("isShoot",false);
-			timeTillMemes = 2;
-		}
 	}
 		
 
 	void Attack ()
 	{
-		if (shootCooldown <= Time.time)
-		{
-			anim.SetBool ("isShoot",true);
-			timeTillMemes--;
+			anim.SetTrigger ("isShoot");
 			GameObject bullet = (GameObject)Instantiate (myProjectile);
 			bullet.transform.position = bulletPosition;
 			Vector2 direction = playerTransform.transform.position - bullet.transform.position;
 			bullet.GetComponent<EnemyProjectileTowardsPlayer>().setDirection (direction);
-			shootCooldown = Time.time + 2f;
-
-		}
-
 	}
 }

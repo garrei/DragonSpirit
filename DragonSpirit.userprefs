@@ -1,15 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemies\RyanAI\TyrannosaurusBehaviour.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemies\RyanAI\ShellfishBehaviour.cs">
     <Files>
-      <File FileName="Assets\Scripts\Enemies\RyanAI\TyrannosaurusBehaviour.cs" Line="69" Column="21" />
-      <File FileName="Assets\Scripts\Enemies\RowenAI\GraiaBehaviour.cs" Line="40" Column="1" />
-      <File FileName="Assets\Scripts\SceneManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ScoreCounter.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\UIManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MenuHighScore.cs" Line="11" Column="15" />
-      <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemies\RyanAI\AlligatorBehaviour.cs" Line="25" Column="3" />
+      <File FileName="Assets\Scripts\Enemies\RyanAI\ShellfishBehaviour.cs" Line="4" Column="23" />
+      <File FileName="Assets\Scripts\Enemies\RyanAI\ToboBehaviour.cs" Line="24" Column="12" />
+      <File FileName="Assets\Scripts\Enemies\RyanAI\AquasaurusBehaviour.cs" Line="56" Column="33" />
+      <File FileName="Assets\Scripts\Enemies\RyanAI\InsectLoveEarthBehaviour.cs" Line="34" Column="4" />
+      <File FileName="Assets\Scripts\Enemies\RyanAI\AlligatorBehaviour.cs" Line="42" Column="27" />
+      <File FileName="Assets\Scripts\Enemies\RyanAI\TyrannosaurusBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemies\RowenAI\GraiaBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemyProjectileTowardsPlayer.cs" Line="28" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
