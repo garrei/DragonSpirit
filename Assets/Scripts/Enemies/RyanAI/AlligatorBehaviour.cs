@@ -34,7 +34,6 @@ public class AlligatorBehaviour : MonoBehaviour {
 		if (myTransform.position.y < playerTransform.position.y + rangeVertical && myTransform.position.x < playerTransform.position.x + rangeHorizontal && myTransform.position.x > playerTransform.position.x - rangeHorizontal && myTransform.position.y > playerTransform.position.y) {
 
 			speedVertical = 0;
-			Attack();
 			mySprite.flipY = false;
 		}
 		if (myTransform.position.y < playerTransform.position.y - 1) {
@@ -59,7 +58,7 @@ public class AlligatorBehaviour : MonoBehaviour {
 			bullet.transform.position = bulletPosition;
 			Vector2 direction = playerTransform.transform.position - bullet.transform.position;
 			bullet.GetComponent<EnemyProjectileTowardsPlayer>().setDirection (direction);
-			
+			shootCooldown = Time.time + 2f;
 
 	}
 }
