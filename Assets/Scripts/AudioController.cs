@@ -36,10 +36,10 @@ public class AudioController : MonoBehaviour {
 			PlayerAttack.playFire2Sound = false;
 		}
 
-		if (UIManager.playHighScoreBrokenSound == true) 
+		/*if (UIManager.playHighScoreBrokenSound == true) 
 		{
 			audioSource.PlayOneShot (brokenHS);
 			UIManager.playHighScoreBrokenSound = false;
-		}
+		}*/
 	}
 }

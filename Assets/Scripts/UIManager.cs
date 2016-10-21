@@ -28,7 +28,7 @@ public class UIManager : MonoBehaviour {
 		{
 			highScore = ScoreCounter.levelScore;
 			PlayerPrefs.SetFloat("hs", highScore);
-			playHighScoreBrokenSound = true;
+			//playHighScoreBrokenSound = true;
 		}
 
 		scoreText.text = Mathf.FloorToInt (ScoreCounter.levelScore).ToString ();	
