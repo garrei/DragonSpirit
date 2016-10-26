@@ -42,23 +42,28 @@ public class AlligatorBehaviour : MonoBehaviour {
 			speedVertical = 1.5f;
 			mySprite.flipY = false;
 		}
-
-		if (playerTransform.position.x - myTransform.position.x >= 0.5f && myTransform.position.y < playerTransform.position.y + 4) {
-			bulletPosition = new Vector3 (transform.position.x + 0.3f, transform.position.y);
+		//Shoot Right
+		if (playerTransform.position.x - myTransform.position.x >= 0.5f && myTransform.position.y < playerTransform.position.y + 4) 
+		{
+			bulletPosition = new Vector3 (transform.position.x + 0.2f, transform.position.y - 0.3f);
 			speedVertical = 0;
+			anim.SetBool ("isToTheSide",true);
 			mySprite.flipX = true;
 		}
-		if (playerTransform.position.x - myTransform.position.x <= -0.5f  && myTransform.position.y < playerTransform.position.y + 4)
+		//Shoot Left
+		if (playerTransform.position.x  - myTransform.position.x <= -0.5f  && myTransform.position.y < playerTransform.position.y + 4)
 		{
-			bulletPosition = new Vector3(transform.position.x - 0.3f, transform.position.y);
+			bulletPosition = new Vector3(transform.position.x - 0.2f, transform.position.y - 0.3f);
 			speedVertical = 0;
+			anim.SetBool ("isToTheSide",true);
 			mySprite.flipX = false;
 		}
 
 			if (playerTransform.position.x - myTransform.position.x >= -0.5f && playerTransform.position.x - myTransform.position.x <= 0.5f && myTransform.position.y < playerTransform.position.y + 4)
 		{
 			bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.2f);
-			//anim.SetInteger ("direction",2);
+			speedVertical = 0;
+			anim.SetBool ("isToTheSide",false);
 
 		}
 
