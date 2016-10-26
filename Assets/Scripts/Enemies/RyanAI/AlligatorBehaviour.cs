@@ -31,20 +31,44 @@ public class AlligatorBehaviour : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (myTransform.position.y < playerTransform.position.y + rangeVertical && myTransform.position.x < playerTransform.position.x + rangeHorizontal && myTransform.position.x > playerTransform.position.x - rangeHorizontal && myTransform.position.y > playerTransform.position.y) {
+		//if (myTransform.position.y < playerTransform.position.y + rangeVertical && myTransform.position.x < playerTransform.position.x + rangeHorizontal && myTransform.position.x > playerTransform.position.x - rangeHorizontal && myTransform.position.y > playerTransform.position.y) {
 
-			speedVertical = 0;
-			mySprite.flipY = false;
-		}
-		if (myTransform.position.y < playerTransform.position.y - 1) {
+			//speedVertical = 0;
+			//mySprite.flipY = false;
+		//}
+
+		if (myTransform.position.y < playerTransform.position.y - 1) 
+		{
 			speedVertical = 1.5f;
 			mySprite.flipY = false;
 		}
+
+		if (playerTransform.position.x - myTransform.position.x >= 0.5f && myTransform.position.y < playerTransform.position.y + 4) {
+			bulletPosition = new Vector3 (transform.position.x + 0.3f, transform.position.y);
+			speedVertical = 0;
+			mySprite.flipX = true;
+		}
+		if (playerTransform.position.x - myTransform.position.x <= -0.5f  && myTransform.position.y < playerTransform.position.y + 4)
+		{
+			bulletPosition = new Vector3(transform.position.x - 0.3f, transform.position.y);
+			speedVertical = 0;
+			mySprite.flipX = false;
+		}
+
+			if (playerTransform.position.x - myTransform.position.x >= -0.5f && playerTransform.position.x - myTransform.position.x <= 0.5f && myTransform.position.y < playerTransform.position.y + 4)
+		{
+			bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.2f);
+			//anim.SetInteger ("direction",2);
+
+		}
+
 		if (shootCooldown <= Time.time)
 		{
 			Attack ();
 			shootCooldown = Time.time + 2f;
 		}
+
+
 
 		myTransform.Translate (moveDirectionVertical * Time.deltaTime * speedVertical);
 		bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.5f);
