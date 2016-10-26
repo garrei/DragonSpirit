@@ -50,9 +50,11 @@ public class EnemyHealth : MonoBehaviour {
 	//This checks whether the bullet should hit the enemy or not depending on it being airbourne or not
 	void OnTriggerEnter2D (Collider2D other){
 		if(other.CompareTag("WeaponForward") && isGrounded == false){
+			Destroy (other.gameObject);
 			health--;
 		}
 		if(other.CompareTag("WeaponDown") && isGrounded == true){
+			Destroy (other.gameObject);
 			health--;
 		}
 	}
