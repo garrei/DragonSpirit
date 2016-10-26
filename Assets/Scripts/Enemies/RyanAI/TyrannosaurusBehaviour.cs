@@ -21,7 +21,7 @@ public class TyrannosaurusBehaviour : MonoBehaviour {
 		myTransform = transform;
 		bulletPosition = new Vector3(transform.position.x, transform.position.y);
 		anim = GetComponent <Animator> ();
-		anim.SetInteger ("direction",2);
+		anim.SetInteger ("direction",0);
 
 
 		mySprite = GetComponent <SpriteRenderer> ();
@@ -42,10 +42,10 @@ public class TyrannosaurusBehaviour : MonoBehaviour {
 			bulletPosition = new Vector3 (transform.position.x + 0.3f, transform.position.y);
 			anim.SetInteger ("direction", 1);
 
-			mySprite.flipX = true;
+			mySprite.flipX = false;
 
 		} else {
-			mySprite.flipX = false;
+			mySprite.flipX = true;
 		}
 
 		//if the player is far enough to the left of the enemy
@@ -60,7 +60,7 @@ public class TyrannosaurusBehaviour : MonoBehaviour {
 		if (playerTransform.position.x - myTransform.position.x >= -0.5f && playerTransform.position.x - myTransform.position.x <= 0.5f)
 		{
 			bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.2f);
-			anim.SetInteger ("direction",2);
+			anim.SetInteger ("direction",0);
 
 		}
 	}
