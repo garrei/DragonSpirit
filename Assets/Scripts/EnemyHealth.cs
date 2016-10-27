@@ -4,7 +4,6 @@ using System.Collections;
 public class EnemyHealth : MonoBehaviour {
 
 	public int health = 1;
-	public bool isGrounded = false;
 	public int score = 0;
 	public GameObject spawnOnDeath;
 	Transform myTransform;
@@ -49,11 +48,11 @@ public class EnemyHealth : MonoBehaviour {
 
 	//This checks whether the bullet should hit the enemy or not depending on it being airbourne or not
 	void OnTriggerEnter2D (Collider2D other){
-		if(other.CompareTag("WeaponForward") && isGrounded == false){
+		if(other.CompareTag("WeaponForward") && gameObject.CompareTag("Airborne")){
 			Destroy (other.gameObject);
 			health--;
 		}
-		if(other.CompareTag("WeaponDown") && isGrounded == true){
+		if(other.CompareTag("WeaponDown") && gameObject.CompareTag("Grounded")){
 			Destroy (other.gameObject);
 			health--;
 		}

@@ -29,7 +29,8 @@ public class ShellfishBehaviour : MonoBehaviour {
 		{
 			anim.SetBool ("Underwater", false);
 			gameObject.tag = "Airborne";
-			speedVertical = -5f;
+			speedVertical = -6f;
+			myTransform.SetParent (null);
 		}
 	}
 		
