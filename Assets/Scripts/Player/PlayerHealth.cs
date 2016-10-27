@@ -18,5 +18,8 @@ public class PlayerHealth : MonoBehaviour {
 			Destroy (other.gameObject);
 			health--;
 		}
+		if(other.CompareTag("Airborne")){
+			health--;
+		}
 	}
 }

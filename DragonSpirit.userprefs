@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SceneManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DestroyWhenHitPlayer.cs">
     <Files>
-      <File FileName="Assets\Scripts\SceneManager.cs" Line="61" Column="3" />
-      <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="78" Column="4" />
+      <File FileName="Assets\Scripts\Enemies\RowenAI\PlesiosaurusBeheviour.cs" Line="14" Column="24" />
+      <File FileName="Assets\Scripts\EnemyHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerHealth.cs" Line="21" Column="36" />
+      <File FileName="Assets\Scripts\DestroyWhenHitPlayer.cs" Line="19" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
