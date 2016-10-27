@@ -9,12 +9,15 @@ public class PlayerController : MonoBehaviour {
 	public bool canMoveLeft = true, canMoveRight = true;
 	float movement = 0;
 	public static int playerScore = 0;
+	bool colliderIsOn = true;
+	BoxCollider2D myCollider;
 
 	// Use this for initialization
 	void Start () {
 		myTransform = transform;
 		rb = GetComponent<Rigidbody2D>();
 		speedDiag = speedNormal * 2/3;
+		myCollider = GetComponent<BoxCollider2D> ();
 	}
 
 	// Update is called once per frame
@@ -79,5 +82,17 @@ public class PlayerController : MonoBehaviour {
 
 		//Movement
 		rb.velocity = new Vector2 (movement*currentSpeed, Input.GetAxisRaw("Vertical")*currentSpeed);
+
+		//Turning collider off with Spacebar
+		if(Input.GetKeyDown(KeyCode.Space) && colliderIsOn == true){
+			myCollider.enabled = false;
+			colliderIsOn = false;
+		} else
+		if(Input.GetKeyDown(KeyCode.Space) && colliderIsOn == false){
+			myCollider.enabled = true;
+			colliderIsOn = true;
+		}
+
+		Debug.Log (colliderIsOn);
 	}
 }

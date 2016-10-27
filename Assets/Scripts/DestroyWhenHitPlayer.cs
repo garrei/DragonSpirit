@@ -17,7 +17,9 @@ public class DestroyWhenHitPlayer : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D (Collider2D other){
+		if(other.CompareTag("Player") && gameObject.CompareTag("Airborne")){
 		Instantiate (explosion,myTransform.position, Quaternion.identity);
 		Destroy (gameObject);
+		}
 	}
 }

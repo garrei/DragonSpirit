@@ -37,6 +37,7 @@ public class ToboBehaviour : MonoBehaviour {
 			Vector2 position = transform.position;
 			position += _direction * speed * Time.deltaTime;
 			transform.position = position;
+			transform.SetParent (null);
 		}
 		if (gliding == false) 
 		{
