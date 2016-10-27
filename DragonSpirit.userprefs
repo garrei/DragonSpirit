@@ -1,14 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemies\RyanAI\AquasaurusBehaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SceneManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\Enemies\RyanAI\AquasaurusBehaviour.cs" Line="46" Column="59" />
-      <File FileName="Assets\Scripts\Enemies\RyanAI\TyrannosaurusBehaviour.cs" Line="23" Column="1" />
-      <File FileName="Assets\Scripts\Enemies\RyanAI\InsectLoveEarthBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemies\RyanAI\ShellfishBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemies\RyanAI\ToboBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemies\RyanAI\AlligatorBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Eggs.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SceneManager.cs" Line="61" Column="3" />
+      <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="78" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

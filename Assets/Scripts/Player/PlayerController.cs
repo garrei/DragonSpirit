@@ -79,11 +79,5 @@ public class PlayerController : MonoBehaviour {
 
 		//Movement
 		rb.velocity = new Vector2 (movement*currentSpeed, Input.GetAxisRaw("Vertical")*currentSpeed);
-
-		//Returns Immediatley to Main Menu
-		if (Input.GetAxisRaw ("Cancel") == 1) 
-		{
-			Application.LoadLevel (0);
-		}
 	}
 }

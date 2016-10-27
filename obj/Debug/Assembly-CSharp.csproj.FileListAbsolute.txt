@@ -19,3 +19,24 @@ C:\Users\Ryan\Documents\GitHub\DragonSpirit\Temp\bin\Debug\UnityEngine.Networkin
 C:\Users\Ryan\Documents\GitHub\DragonSpirit\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Ryan\Documents\GitHub\DragonSpirit\obj\Debug\Assembly-CSharp.dll
 C:\Users\Ryan\Documents\GitHub\DragonSpirit\obj\Debug\Assembly-CSharp.pdb
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\Assembly-CSharp.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\UnityEditor.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\UnityEngine.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\UnityEngine.UI.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\Mono.Cecil.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\Unity.DataContract.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\Unity.CecilTools.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\UnityEngine.xml
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\UnityEditor.xml
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\UnityEngine.UI.xml
+D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\GitHub Repos\DragonSpirit\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+D:\GitHub Repos\DragonSpirit\obj\Debug\Assembly-CSharp.dll
+D:\GitHub Repos\DragonSpirit\obj\Debug\Assembly-CSharp.pdb
