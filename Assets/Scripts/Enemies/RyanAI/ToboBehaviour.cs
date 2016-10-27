@@ -11,16 +11,12 @@ public class ToboBehaviour : MonoBehaviour {
 	Animator anim;
 	bool gliding = false;
 	Vector3 bulletPosition;
-	Vector3 moveDirectionVertical = Vector3.down;
-	SpriteRenderer mySprite;
 
-	// Use this for initialization
-	void Start () {
-		//Finding the player this way should make it more compatable between scenes
+	void Start () 
+	{
 		playerTransform = GameObject.Find ("PlayerGraphic").transform;
 		myTransform = transform;
 		anim = GetComponent <Animator> ();
-		mySprite = GetComponent <SpriteRenderer> ();
 		speed = 5f;
 
 

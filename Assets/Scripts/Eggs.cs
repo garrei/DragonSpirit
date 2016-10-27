@@ -5,13 +5,11 @@ public class Eggs : MonoBehaviour {
 
 	public GameObject orb;
 	public GameObject eggAnim;
-	Animator anim;
 	Transform myTransform;
 
 
 	// Use this for initialization
 	void Start () {
-		anim = GetComponent <Animator> ();
 		myTransform = transform;
 	}
 

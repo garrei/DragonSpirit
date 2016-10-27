@@ -9,8 +9,6 @@ public class AlligatorBehaviour : MonoBehaviour {
 	public GameObject myProjectile;
 	float shootCooldown = 2;
 	float speedVertical = 1.5f;
-	float rangeVertical = 4;
-	float rangeHorizontal = 10f;
 	Animator anim;
 	Vector3 bulletPosition;
 	Vector3 moveDirectionVertical = Vector3.down;

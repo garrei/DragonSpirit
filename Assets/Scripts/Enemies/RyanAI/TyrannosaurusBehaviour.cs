@@ -36,26 +36,6 @@ public class TyrannosaurusBehaviour : MonoBehaviour {
 			Attack ();
 			shootCooldown = Time.time + 2f;
 		}
-			
-		//if player is far enough to the right of the enemy
-		if (playerTransform.position.x - myTransform.position.x >= 0.5f) {
-			bulletPosition = new Vector3 (transform.position.x + 0.3f, transform.position.y);
-			anim.SetInteger ("direction", 1);
-
-			mySprite.flipX = false;
-
-		} else {
-			mySprite.flipX = true;
-		}
-
-		//if the player is far enough to the left of the enemy
-		if (playerTransform.position.x - myTransform.position.x <= -0.5f)
-		{
-			bulletPosition = new Vector3(transform.position.x - 0.3f, transform.position.y);
-			anim.SetInteger ("direction",1);
-
-		}
-
 		//if the player is in front of the enemy
 		if (playerTransform.position.x - myTransform.position.x >= -0.5f && playerTransform.position.x - myTransform.position.x <= 0.5f)
 		{
@@ -63,6 +43,42 @@ public class TyrannosaurusBehaviour : MonoBehaviour {
 			anim.SetInteger ("direction",0);
 
 		}
+		//if player is far enough to the right of the enemy
+		if (playerTransform.position.x - myTransform.position.x >= 0.5f) 
+		{
+			if (playerTransform.position.x - myTransform.position.x >= 2f) {
+				bulletPosition = new Vector3 (transform.position.x + 0.3f, transform.position.y);
+				anim.SetInteger ("direction", 1);
+				mySprite.flipX = false;
+			} 
+			else 
+			{
+				bulletPosition = new Vector3 (transform.position.x + 0.3f, transform.position.y);
+				anim.SetInteger ("direction", 2);
+				mySprite.flipX = false;
+			}
+		} 
+		else 
+		{
+			mySprite.flipX = true;
+		}
+
+		//if the player is far enough to the left of the enemy
+		if (playerTransform.position.x - myTransform.position.x <= -0.5f)
+		{
+			if (playerTransform.position.x - myTransform.position.x <= -2f) {
+				bulletPosition = new Vector3(transform.position.x - 0.3f, transform.position.y);
+				anim.SetInteger ("direction", 1);
+			} 
+			else 
+			{
+				bulletPosition = new Vector3(transform.position.x - 0.3f, transform.position.y);
+				anim.SetInteger ("direction", 2);
+			}
+		}
+
+
+
 	}
 		
 

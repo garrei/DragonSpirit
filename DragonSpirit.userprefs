@@ -1,17 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemies\RyanAI\TyrannosaurusBehaviour.cs">
     <Files>
-      <File FileName="Assets\Scripts\Enemies\RyanAI\AlligatorBehaviour.cs" Line="71" Column="4" />
-      <File FileName="Assets\Scripts\Eggs.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\OrbMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemies\RyanAI\TyrannosaurusBehaviour.cs" Line="50" Column="3" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyHealth.cs">
-    <Files>
-      <File FileName="Assets\Scripts\EnemyHealth.cs" Line="42" Column="6" />
->>>>>>> origin/master
+      <File FileName="Assets\Scripts\Enemies\RyanAI\TyrannosaurusBehaviour.cs" Line="69" Column="65" />
+      <File FileName="Assets\Scripts\Enemies\RyanAI\InsectLoveEarthBehaviour.cs" Line="16" Column="65" />
+      <File FileName="Assets\Scripts\Enemies\RyanAI\ShellfishBehaviour.cs" Line="33" Column="4" />
+      <File FileName="Assets\Scripts\Enemies\RyanAI\ToboBehaviour.cs" Line="20" Column="14" />
+      <File FileName="Assets\Scripts\Enemies\RyanAI\AlligatorBehaviour.cs" Line="11" Column="29" />
+      <File FileName="Assets\Scripts\Eggs.cs" Line="7" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

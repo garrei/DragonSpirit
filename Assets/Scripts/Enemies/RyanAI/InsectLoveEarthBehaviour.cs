@@ -4,7 +4,6 @@ using System.Collections;
 public class InsectLoveEarthBehaviour : MonoBehaviour {
 
 	Transform playerTransform;
-	Transform myTransform;
 	public GameObject myProjectile;
 	float shootCooldown = 2;
 	Animator anim;
@@ -15,7 +14,6 @@ public class InsectLoveEarthBehaviour : MonoBehaviour {
 	void Start () {
 		anim = GetComponent <Animator> ();
 		playerTransform = GameObject.Find ("PlayerGraphic").transform;
-		myTransform = transform;
 		altSprite = Random.Range (0, 2);
 		anim.SetInteger ("altSprite",altSprite);
 		Debug.Log (altSprite);
