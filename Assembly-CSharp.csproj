@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\EnemyProjectile.cs" />
      <Compile Include="Assets\Scripts\EnemyProjectileTowardsPlayer.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\InstantiateAsChild.cs" />
      <Compile Include="Assets\Scripts\MenuHighScore.cs" />
      <Compile Include="Assets\Scripts\OffScreenDestroy.cs" />
      <Compile Include="Assets\Scripts\OrbMove.cs" />

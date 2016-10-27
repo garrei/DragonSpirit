@@ -13,7 +13,7 @@ public class OffScreenDestroy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		if(myTransform.position.x > 5 || myTransform.position.x < -5 || myTransform.position.y < -5 || myTransform.position.y > 7){
+		if(myTransform.position.x > 5 || myTransform.position.x < -5 || myTransform.position.y < -5 || myTransform.position.y > 9){
 			Destroy (gameObject);
 		}
 	}
