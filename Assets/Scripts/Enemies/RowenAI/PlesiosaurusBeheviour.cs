@@ -11,7 +11,7 @@ public class PlesiosaurusBeheviour : MonoBehaviour {
 	Vector2 moveDirectionHorizontal = Vector2.right;
 	Vector2 moveDirectionVertical = Vector2.down;
 	public GameObject myBullet;
-	float fireRate = 0.6f;
+	float fireRate = 0.7f;
 	float nextFire = 0;
 
 	// Use this for initialization
