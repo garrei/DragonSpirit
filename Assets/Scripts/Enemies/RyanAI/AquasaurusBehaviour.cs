@@ -16,6 +16,7 @@ public class AquasaurusBehaviour : MonoBehaviour {
 	Vector3 moveDirectionVertical = Vector3.down;
 	Vector3 moveDirectionHorizontal = Vector3.left;
 	SpriteRenderer mySprite;
+	Animator anim;
 
 	// Use this for initialization
 	void Start () {
@@ -24,6 +25,7 @@ public class AquasaurusBehaviour : MonoBehaviour {
 		playerTransform = GameObject.Find ("PlayerGraphic").transform;
 		myTransform = transform;
 		mySprite = GetComponent <SpriteRenderer> ();
+		anim = GetComponent <Animator> ();
 	}
 
 	// Update is called once per frame
@@ -41,14 +43,14 @@ public class AquasaurusBehaviour : MonoBehaviour {
 		{
 			speedHorizontal = 0.2f;
 			mySprite.flipX = false;
-			bulletPosition = new Vector3(transform.position.x - 0.3f, transform.position.y);
+			bulletPosition = new Vector3(transform.position.x - 0.35f, transform.position.y);
 		}
 
 		if (isLeft == false) 
 		{
 			speedHorizontal = -0.2f;
 			mySprite.flipX = true;
-			bulletPosition = new Vector3(transform.position.x + 0.3f, transform.position.y);
+			bulletPosition = new Vector3(transform.position.x + 0.35f, transform.position.y);
 		}
 		if (shootCooldown <= Time.time)
 		{
@@ -63,6 +65,7 @@ public class AquasaurusBehaviour : MonoBehaviour {
 
 	void Attack ()
 	{
+			anim.SetTrigger ("isShoot");	
 			GameObject bullet = (GameObject)Instantiate (myProjectile);
 			bullet.transform.position = bulletPosition;
 			Vector2 direction = playerTransform.transform.position - bullet.transform.position;
