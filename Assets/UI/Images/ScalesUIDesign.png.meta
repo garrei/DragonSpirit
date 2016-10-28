@@ -1,13 +1,13 @@
 fileFormatVersion: 2
 guid: ea12908e80ef4e6418b0ff5d5389630c
-timeCreated: 1477615448
+timeCreated: 1477616527
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: ScalesFireAppear1
     21300002: ScalesFire
-    21300004: ScalesUIDesign_2
-    21300006: ScalesUIDesign_3
+    21300004: ScalesFireAppear2
+    21300006: ScalesFireAppear3
     21300008: ScalesFireDissapear1
     21300010: ScalesFireDissapear2
     21300012: ScalesFireDissapear3
@@ -87,7 +87,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: ScalesUIDesign_2
+    - name: ScalesFireAppear2
       rect:
         serializedVersion: 2
         x: 40
@@ -98,7 +98,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: ScalesUIDesign_3
+    - name: ScalesFireAppear3
       rect:
         serializedVersion: 2
         x: 75
