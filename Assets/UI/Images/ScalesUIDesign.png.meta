@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: ea12908e80ef4e6418b0ff5d5389630c
+timeCreated: 1477615448
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ScalesFireAppear1
+    21300002: ScalesFire
+    21300004: ScalesUIDesign_2
+    21300006: ScalesUIDesign_3
+    21300008: ScalesFireDissapear1
+    21300010: ScalesFireDissapear2
+    21300012: ScalesFireDissapear3
+    21300014: ScalesHealth
+    21300016: ScalesHealthAppear1
+    21300018: ScalesHealthAppear2
+    21300020: ScalesHealthAppear3
+    21300022: ScalesHealthDisappear1
+    21300024: ScalesHealthDisappear2
+    21300026: ScalesHealthDisappear3
+    21300028: ScalesUIBackground
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ScalesFireAppear1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 153
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesFire
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 179
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesUIDesign_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 153
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesUIDesign_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 153
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesFireDissapear1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 129
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesFireDissapear2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 129
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesFireDissapear3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 129
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesHealth
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 103
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesHealthAppear1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 77
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesHealthAppear2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 77
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesHealthAppear3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 77
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesHealthDisappear1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 53
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesHealthDisappear2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 53
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesHealthDisappear3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 53
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesUIBackground
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 25
+        width: 49
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
