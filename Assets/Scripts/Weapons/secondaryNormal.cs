@@ -30,7 +30,7 @@ public class secondaryNormal : MonoBehaviour {
 
 		//Enabling the collider when the object is small enough
 		rb.velocity = new Vector2 (0,speed);
-		if (myTransform.localScale.x < 0.3f) {
+		if (myTransform.localScale.x < 0.4f) {
 			myCollider.enabled = true;
 		}
 

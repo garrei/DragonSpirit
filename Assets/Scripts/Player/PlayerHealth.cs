@@ -8,7 +8,7 @@ public class PlayerHealth : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (health < 1){
-			Destroy (gameObject);
+			Application.LoadLevel (0);
 		}
 	}
 

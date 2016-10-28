@@ -22,7 +22,7 @@ public class AlligatorBehaviour : MonoBehaviour {
 		myTransform = transform;
 		anim = GetComponent <Animator> ();
 		mySprite = GetComponent <SpriteRenderer> ();
-
+		bulletPosition = new Vector3(transform.position.x, transform.position.y - 0.5f);
 
 	}
 

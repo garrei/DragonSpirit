@@ -7,8 +7,6 @@ public class SceneManager : MonoBehaviour {
 	private bool UIloaded = false;
 	private bool isPaused = false;
 	public GameObject pauseMenu;
-	float shootCooldown = 1;
-
 
 	// Use this for initialization
 	void Start () 
@@ -26,24 +24,24 @@ public class SceneManager : MonoBehaviour {
 	}
 	void Update ()
 	{
-		if (Input.GetKeyDown(KeyCode.Escape) && isPaused == false && shootCooldown <= Time.time)
+		if (Input.GetKeyDown (KeyCode.Escape)) 
 		{
-			pauseMenu.SetActive (true);
-			isPaused = true;
-			Time.timeScale = 0;
-			Debug.Log("Memes On");
-			shootCooldown = Time.time + 1f;
+			if (isPaused == false) {
+				pauseMenu.SetActive (true);
+				Time.timeScale = 0;
+				isPaused = true;
+				Debug.Log ("Memes On");
+			} 
+			else 
+			{
+				pauseMenu.SetActive (false);
+				isPaused = false;
+				Time.timeScale = 1;
+				Debug.Log("Memes Off");
+			}
 		}
-		if (Input.GetKeyDown (KeyCode.Escape) && isPaused == true&& shootCooldown <= Time.time) 
-		{
-			pauseMenu.SetActive (false);
-			isPaused = false;
-			Time.timeScale = 1;
-			Debug.Log("Memes Off");
-			shootCooldown = Time.time + 1f;
-		}
-
 	}
+		
 
 	//BUTTON METHODS*******************************************************************
 
