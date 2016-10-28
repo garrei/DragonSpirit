@@ -92,7 +92,5 @@ public class PlayerController : MonoBehaviour {
 			myCollider.enabled = true;
 			colliderIsOn = true;
 		}
-
-		Debug.Log (colliderIsOn);
 	}
 }
