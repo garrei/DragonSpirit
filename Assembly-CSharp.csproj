@@ -72,8 +72,9 @@
      <Compile Include="Assets\Scripts\OrbMove.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerGraphic.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerHeads.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
-     <Compile Include="Assets\Scripts\PlayerHeads.cs" />
      <Compile Include="Assets\Scripts\SceneManager.cs" />
      <Compile Include="Assets\Scripts\ScoreCounter.cs" />
      <Compile Include="Assets\Scripts\TerrainMove.cs" />
