@@ -17,7 +17,7 @@ public class EnemyHealth : MonoBehaviour {
 
 	void Update () {
 
-		if (health < 1 && myTransform.parent == null){
+		if ((health < 1 && myTransform.parent == null) || (health < 1 && CompareTag("Credits"))){
 			OnDeath ();
 			Destroy (gameObject);
 		} else
@@ -48,7 +48,7 @@ public class EnemyHealth : MonoBehaviour {
 
 	//This checks whether the bullet should hit the enemy or not depending on it being airbourne or not
 	void OnTriggerEnter2D (Collider2D other){
-		if(other.CompareTag("WeaponForward") && gameObject.CompareTag("Airborne")){
+		if((other.CompareTag("WeaponForward") && gameObject.CompareTag("Airborne")) || (other.CompareTag("WeaponForward") && gameObject.CompareTag("Credits"))){
 			Destroy (other.gameObject);
 			health--;
 		}

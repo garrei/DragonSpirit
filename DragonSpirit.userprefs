@@ -1,20 +1,20 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyHealth.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\InstantiateAsChild.cs">
     <Files>
-      <File FileName="Assets\Scripts\UIManager.cs" Line="37" Column="2" />
-      <File FileName="Assets\Scripts\SceneManager.cs" Line="22" Column="20" />
+      <File FileName="Assets\Scripts\EnemyHealth.cs" Line="20" Column="87" />
+      <File FileName="Assets\Scripts\UIManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SceneManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemies\RyanAI\AquasaurusBehaviour.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemies\RyanAI\ToboBehaviour.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\OffScreenDestroy.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\EnemySpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\InstantiateAsChild.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EnemyHealth.cs" Line="37" Column="7" />
+      <File FileName="Assets\Scripts\InstantiateAsChild.cs" Line="11" Column="1" />
       <File FileName="Assets\Scripts\TerrainMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AudioController.cs" Line="39" Column="3" />
-      <File FileName="Assets\Scripts\Player\PlayerAttack.cs" Line="42" Column="26" />
+      <File FileName="Assets\Scripts\AudioController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerAttack.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerHealth.cs" Line="25" Column="2" />
+      <File FileName="Assets\Scripts\Player\PlayerHealth.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
