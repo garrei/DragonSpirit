@@ -3,22 +3,42 @@ using System.Collections;
 
 public class PlayerHealth : MonoBehaviour {
 
-	public int health = 3;
-	float cooldownRate = 3f;
-	float nextCool = 0;
+	Transform myTransform;
+	int health = 3;
+	int lives = 3;
+	float hitCooldownRate = 3f;
+	float hitNextCool = 0;
+	float deathCooldownRate = 3f;
+	public static float deathNextCool = 0;
 	public static float myOpacity = 1;
 	Collider2D myCollider;
+	public static bool mySpriteEnabled = true;
+	public GameObject myExplosion;
 
 	void Start (){
+		myTransform = transform;
 		myCollider = GameObject.Find("Player").GetComponent<Collider2D> ();
 	}
 
 	// Update is called once per frame
 	void Update () {
+
+		//What happens when you run out of health
 		if (health < 1){
+			lives--;
+			health = 3;
+			deathNextCool = Time.time + deathCooldownRate;
+			hitNextCool = Time.time + deathCooldownRate + hitCooldownRate;
+			Instantiate (myExplosion, myTransform.position, Quaternion.identity);
+		}
+
+		//What happens when you run out of lives
+		if(lives < 0){
 			Application.LoadLevel (4);
 		}
-		if(Time.time < nextCool){
+
+		//Determines whether the hit cooldown is active
+		if(Time.time < hitNextCool){
 			myCollider.enabled = false;
 		}
 		else{
@@ -28,23 +48,37 @@ public class PlayerHealth : MonoBehaviour {
 				myCollider.enabled = false;
 			}
 		}
-
+		//Sets the opacity of the sprite during cooldown
 		if (myCollider.enabled == false) {
 			myOpacity = 0.5f;
 		} else {
 			myOpacity = 1;
 		}
+
+		//Determines whether the death cooldown is active
+		if(Time.time < deathNextCool){
+			myCollider.enabled = false;
+			mySpriteEnabled = false;
+		}
+		else{
+			if (PlayerController.colliderIsOn == true) {
+				myCollider.enabled = true;
+			} else {
+				myCollider.enabled = false;
+			}
+			mySpriteEnabled = true;
+		}
 	}
 
 	//This checks whether the bullet should hit the enemy or not depending on it being airbourne or not
 	void OnTriggerEnter2D (Collider2D other){
-		if(other.CompareTag("EnemyBullet") && Time.time > nextCool){
+		if(other.CompareTag("EnemyBullet") && Time.time > hitNextCool){
 			Destroy (other.gameObject);
-			nextCool = Time.time + cooldownRate;
+			hitNextCool = Time.time + hitCooldownRate;
 			health--;
 		}
-		if(other.CompareTag("Airborne") && Time.time > nextCool){	
-			nextCool = Time.time + cooldownRate;
+		if(other.CompareTag("Airborne") && Time.time > hitNextCool){	
+			hitNextCool = Time.time + hitCooldownRate;
 			health--;
 		}
 	}

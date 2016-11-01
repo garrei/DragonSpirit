@@ -19,7 +19,9 @@ public class PlesiosaurusMove : MonoBehaviour {
 
 		//Object moves down at a constant speed
 		if(terrainIsMoving == true && myTransform.position.y > 1){
+			if(Time.time > PlayerHealth.deathNextCool){
 			myTransform.Translate (Vector3.down *speed * Time.deltaTime);
+			}
 		}
 
 		if(myTransform.position.y < 1){
