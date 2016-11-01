@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (health < 1){
-			Application.LoadLevel (0);
+			Application.LoadLevel (4);
 		}
 		if(Time.time < nextCool){
 			myCollider.enabled = false;

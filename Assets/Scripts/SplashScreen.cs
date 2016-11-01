@@ -10,17 +10,17 @@ public class SplashScreen : MonoBehaviour {
 
 		if (screenTime >= 5) 
 		{
-			Application.LoadLevel (0);
+			Application.LoadLevel (1);
 		}
 
 		if (Input.GetKeyDown (KeyCode.Space)) 
 		{
-			Application.LoadLevel (0);
+			Application.LoadLevel (1);
 		} 
 
 		if (Input.GetButton("Fire1")) 
 		{
-			Application.LoadLevel (0);
+			Application.LoadLevel (1);
 		} 
 	}
 }
