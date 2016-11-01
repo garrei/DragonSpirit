@@ -1,13 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerHealth.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BossHealth.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player\PlayerHealth.cs" Line="25" Column="3" />
-      <File FileName="Assets\Scripts\Player\PlayerGraphic.cs" Line="21" Column="28" />
-      <File FileName="Assets\Scripts\Enemies\RowenAI\PlesiosaurusMove.cs" Line="22" Column="18" />
-      <File FileName="Assets\Scripts\TerrainMove.cs" Line="22" Column="18" />
-      <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="82" Column="3" />
-      <File FileName="Assets\Scripts\DestroyWhenHitPlayer.cs" Line="16" Column="1" />
+      <File FileName="Assets\Scripts\BossHealth.cs" Line="31" Column="34" />
+      <File FileName="Assets\Scripts\Enemies\RowenAI\PlesiosaurusBeheviour.cs" Line="31" Column="22" />
+      <File FileName="Assets\Scripts\Enemies\RowenAI\PlesiosaurusMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerGraphic.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TerrainMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DestroyWhenHitPlayer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
