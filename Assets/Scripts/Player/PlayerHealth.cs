@@ -4,8 +4,8 @@ using System.Collections;
 public class PlayerHealth : MonoBehaviour {
 
 	Transform myTransform;
-	int health = 3;
-	int lives = 3;
+	public static int health = 3;
+	public static int lives = 3;
 	float hitCooldownRate = 3f;
 	float hitNextCool = 0;
 	float deathCooldownRate = 3f;
@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour {
 		}
 
 		//What happens when you run out of lives
-		if(lives < 0){
+		if(lives < 1){
 			Application.LoadLevel (4);
 		}
 

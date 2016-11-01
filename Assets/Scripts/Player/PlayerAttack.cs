@@ -26,7 +26,7 @@ public class PlayerAttack : MonoBehaviour {
 		}
 
 		if(fireRate2 < 0.2f){
-			fireRate2 = 0.3333333333f;
+			fireRate2 = 0.3f;
 		}
 
 		//fireRate1 and fireRate 2 are used to determine the rate of fire, duh
