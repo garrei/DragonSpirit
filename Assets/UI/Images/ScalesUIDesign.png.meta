@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: ea12908e80ef4e6418b0ff5d5389630c
-timeCreated: 1477616527
-licenseType: Pro
+timeCreated: 1477992739
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: ScalesFireAppear1
@@ -19,6 +19,13 @@ TextureImporter:
     21300024: ScalesHealthDisappear2
     21300026: ScalesHealthDisappear3
     21300028: ScalesUIBackground
+    21300030: ScalesFire2
+    21300032: ScalesFire2_Appear1
+    21300034: ScalesFire2_Appear2
+    21300036: ScalesFire2_Appear3
+    21300038: ScalesFire2_Disappear1
+    21300040: ScalesFire2_Disappear2
+    21300042: ScalesFire2_Disappear3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -69,7 +76,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7
-        y: 153
+        y: 245
         width: 21
         height: 18
       alignment: 0
@@ -80,7 +87,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7
-        y: 179
+        y: 271
         width: 21
         height: 18
       alignment: 0
@@ -91,7 +98,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 40
-        y: 153
+        y: 245
         width: 21
         height: 18
       alignment: 0
@@ -102,7 +109,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 75
-        y: 153
+        y: 245
         width: 21
         height: 18
       alignment: 0
@@ -112,8 +119,8 @@ TextureImporter:
     - name: ScalesFireDissapear1
       rect:
         serializedVersion: 2
-        x: 6
-        y: 129
+        x: 7
+        y: 221
         width: 21
         height: 18
       alignment: 0
@@ -124,7 +131,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 40
-        y: 129
+        y: 221
         width: 21
         height: 18
       alignment: 0
@@ -135,7 +142,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 75
-        y: 129
+        y: 221
         width: 21
         height: 18
       alignment: 0
@@ -146,7 +153,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7
-        y: 103
+        y: 74
         width: 21
         height: 18
       alignment: 0
@@ -156,8 +163,8 @@ TextureImporter:
     - name: ScalesHealthAppear1
       rect:
         serializedVersion: 2
-        x: 7
-        y: 77
+        x: 8
+        y: 48
         width: 21
         height: 18
       alignment: 0
@@ -167,8 +174,8 @@ TextureImporter:
     - name: ScalesHealthAppear2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 77
+        x: 41
+        y: 48
         width: 21
         height: 18
       alignment: 0
@@ -178,8 +185,8 @@ TextureImporter:
     - name: ScalesHealthAppear3
       rect:
         serializedVersion: 2
-        x: 75
-        y: 77
+        x: 76
+        y: 48
         width: 21
         height: 18
       alignment: 0
@@ -189,8 +196,8 @@ TextureImporter:
     - name: ScalesHealthDisappear1
       rect:
         serializedVersion: 2
-        x: 7
-        y: 53
+        x: 8
+        y: 24
         width: 21
         height: 18
       alignment: 0
@@ -200,8 +207,8 @@ TextureImporter:
     - name: ScalesHealthDisappear2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 53
+        x: 41
+        y: 24
         width: 21
         height: 18
       alignment: 0
@@ -211,8 +218,8 @@ TextureImporter:
     - name: ScalesHealthDisappear3
       rect:
         serializedVersion: 2
-        x: 75
-        y: 53
+        x: 76
+        y: 24
         width: 21
         height: 18
       alignment: 0
@@ -223,8 +230,85 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 8
-        y: 25
+        y: 117
         width: 49
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesFire2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 195
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesFire2_Appear1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 169
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesFire2_Appear2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 169
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesFire2_Appear3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 169
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesFire2_Disappear1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 145
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesFire2_Disappear2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 145
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScalesFire2_Disappear3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 145
+        width: 21
         height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
