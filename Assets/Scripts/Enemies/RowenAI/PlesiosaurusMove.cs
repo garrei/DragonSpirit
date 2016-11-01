@@ -19,7 +19,9 @@ public class TerrainMove : MonoBehaviour {
 
 		//Object moves down at a constant speed
 		if(terrainIsMoving == true && myTransform.position.y > -76){
+			if(Time.time > PlayerHealth.deathNextCool){
 			myTransform.Translate (Vector3.down *speed * Time.deltaTime);
+			}
 		}
 
 		if(myTransform.position.y < -76){

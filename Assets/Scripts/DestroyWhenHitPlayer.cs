@@ -13,11 +13,11 @@ public class DestroyWhenHitPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
 	void OnTriggerEnter2D (Collider2D other){
-		if(other.CompareTag("Player") && gameObject.CompareTag("Airborne")){
+		if(other.CompareTag("Player") && gameObject.CompareTag("Airborne") && PlayerHealth.myOpacity > 0.9f){
 		Instantiate (explosion,myTransform.position, Quaternion.identity);
 		Destroy (gameObject);
 		}

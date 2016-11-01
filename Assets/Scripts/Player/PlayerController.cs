@@ -81,7 +81,9 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		//Movement
+		if(Time.time > PlayerHealth.deathNextCool){
 		rb.velocity = new Vector2 (movement*currentSpeed, Input.GetAxisRaw("Vertical")*currentSpeed);
+		}
 
 		//Turning collider off with Spacebar
 		if(Input.GetKeyDown(KeyCode.Space) && colliderIsOn == true){
