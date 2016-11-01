@@ -23,7 +23,7 @@ public class OrbMove : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D other){
 		if(other.CompareTag("Player")){
 			if(myColour == 0){
-				PlayerAttack.fireRate2 -= 0.3333333f;
+				PlayerAttack.fireRate2 -= 0.35f;
 			}
 			if(myColour == 1){
 				PlayerHeads.powerLevel++;
