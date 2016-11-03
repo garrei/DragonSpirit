@@ -2,13 +2,15 @@
 using System.Collections;
 
 public class Buttons : MonoBehaviour {
-
+	
 	public static GameObject pauseMenu;
+	public static GameObject helpMenu;
 	public static bool isPaused;
 
 	void Start ()
 	{
 		pauseMenu = GameObject.FindGameObjectWithTag ("PauseMenu");
+		helpMenu = GameObject.FindGameObjectWithTag ("HelpMenu");
 	}
 
 	//BUTTON METHODS*******************************************************************
@@ -32,9 +34,18 @@ public class Buttons : MonoBehaviour {
 	}
 	public void ResumeGame () 
 	{
-		pauseMenu.SetActive (false);
-		Time.timeScale = 1;
-		isPaused = false;
+		if (helpMenu.activeInHierarchy == true) 
+		{
+			helpMenu.SetActive (false);
+			Time.timeScale = 1;
+			isPaused = false;
+		}
+		if (pauseMenu.activeInHierarchy == true) 
+		{
+			pauseMenu.SetActive (false);
+			Time.timeScale = 1;
+			isPaused = false;
+		}
 	}
 	public void LoadCredits ()
 	{
