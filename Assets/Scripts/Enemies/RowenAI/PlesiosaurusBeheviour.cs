@@ -13,6 +13,8 @@ public class PlesiosaurusBeheviour : MonoBehaviour {
 	public GameObject myBullet;
 	float fireRate = 0.7f;
 	float nextFire = 0;
+	public bool isOnScreen = false;
+
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +25,11 @@ public class PlesiosaurusBeheviour : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		if(myTransform.position.y < -80)
+		{
+			isOnScreen = true;
+		}
 
 		if(myTransform.position.x >= playerTransform.position.x){
 			moveDirectionHorizontal = Vector2.left;
