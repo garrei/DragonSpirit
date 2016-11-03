@@ -8,16 +8,13 @@ public class PlayerController : MonoBehaviour {
 	float currentSpeed, speedNormal = 5, speedDiag;
 	public bool canMoveLeft = true, canMoveRight = true;
 	float movement = 0;
-	public static int playerScore = 0;
 	public static bool colliderIsOn = true;
-	BoxCollider2D myCollider;
 
 	// Use this for initialization
 	void Start () {
 		myTransform = transform;
 		rb = GetComponent<Rigidbody2D>();
 		speedDiag = speedNormal * 2/3;
-		myCollider = GetComponent<BoxCollider2D> ();
 	}
 
 	// Update is called once per frame

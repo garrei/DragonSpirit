@@ -42,7 +42,7 @@ public class EnemyHealth : MonoBehaviour {
 	}
 
 	void OnDeath (){
-		PlayerController.playerScore += score;
+		ScoreCounter.levelScore += score;
 		Instantiate (spawnOnDeath, myTransform.position,Quaternion.identity);
 	}
 

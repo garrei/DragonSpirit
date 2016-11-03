@@ -55,7 +55,7 @@ public class BossHealth : MonoBehaviour {
 	}
 
 	void OnDeath (){
-		PlayerController.playerScore += score;
+		ScoreCounter.levelScore += score;
 		Instantiate (spawnOnDeath, myTransform.position,Quaternion.identity);
 	}
 
