@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Credits.unity
-=======
-- path: Assets/Scenes/RyanAITest.unity
->>>>>>> origin/master
+- path: Assets/Scenes/level01.unity
   isLoaded: 1
   isActive: 1

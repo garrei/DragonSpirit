@@ -9,7 +9,7 @@ public class ApterexBehaviour : MonoBehaviour {
 	bool isOrbiting = false;
 	int speedVertical = 7;
 	int speedHorizontal = 2;
-	float rotateSpeed = 0.75f;
+	float rotateSpeed = 1f;
 	Vector3 moveDirectionHorizontal = new Vector2 (0,0);
 
 	// Use this for initialization

@@ -1,22 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BossHealth.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemies\RowenAI\ApterexBehaviour.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets\Scripts\BossHealth.cs" Line="31" Column="34" />
-      <File FileName="Assets\Scripts\Enemies\RowenAI\PlesiosaurusBeheviour.cs" Line="31" Column="22" />
-      <File FileName="Assets\Scripts\Enemies\RowenAI\PlesiosaurusMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerHealth.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerGraphic.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TerrainMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DestroyWhenHitPlayer.cs" Line="1" Column="1" />
-=======
-      <File FileName="Assets\Scripts\UIHUD.cs" Line="78" Column="25" />
-      <File FileName="Assets\Scripts\Player\PlayerAttack.cs" Line="29" Column="19" />
-      <File FileName="Assets\Scripts\Player\PlayerHealth.cs" Line="23" Column="36" />
-      <File FileName="Assets\Scripts\OrbMove.cs" Line="26" Column="35" />
->>>>>>> origin/master
+      <File FileName="Assets\Scripts\Enemies\RyanAI\InsectLoveEarthBehaviour.cs" Line="19" Column="1" />
+      <File FileName="Assets\Scripts\Enemies\RowenAI\ApterexBehaviour.cs" Line="12" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
