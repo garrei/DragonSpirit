@@ -37,7 +37,7 @@ public class ApterexBehaviour : MonoBehaviour {
 		}
 		if(isOrbiting == true){
 			myTransform.position = new Vector2 (myTransform.position.x,playerTransform.position.y);
-			rotatePoint.Rotate (Vector3.forward * rotateSpeed);
+			rotatePoint.Rotate (Vector3.forward * rotateSpeed * Time.deltaTime);
 		}
 		myTransform.Translate (moveDirectionHorizontal * Time.deltaTime * speedHorizontal);
 	}
