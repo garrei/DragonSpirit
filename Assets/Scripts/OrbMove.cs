@@ -3,7 +3,7 @@ using System.Collections;
 
 public class OrbMove : MonoBehaviour {
 
-	float speedVertical = 0.5f;
+	float speedVertical = 2f;
 	Transform myTransform;
 	//0 = Blue, 1 = Green, 2 = Red
 	public int myColour = 0;

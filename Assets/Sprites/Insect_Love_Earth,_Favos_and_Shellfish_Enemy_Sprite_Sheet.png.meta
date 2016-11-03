@@ -1,21 +1,25 @@
 fileFormatVersion: 2
 guid: 1c731e74ed34ba549a43478de723cce2
-timeCreated: 1476941371
+timeCreated: 1478170641
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ILE_Idle1
-    21300002: ILE_Idle2
+    21300000: ILE1_Idle1
+    21300002: ILE2_Idle1
     21300004: ILE_Attack2
     21300006: ShellfishAttack
-    21300008: ILE_Idle1
-    21300010: ILE_Idle2
+    21300008: ILE1_Idle1
+    21300010: ILE2_Idle1
     21300012: ILE_Attack1
     21300014: Favos
     21300016: ShellfishSubmerged1
     21300018: ShellfishSubmerged2
     21300020: ShellfishSubmerged3
     21300022: ShellfishEmerging
+    21300024: ILE1_Idle2
+    21300026: ILE1_Idle3
+    21300028: ILE2_Idle3
+    21300030: ILE2_Idle2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -73,70 +77,55 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 8, y: 29.5}
-        - {x: -18, y: 29.5}
-        - {x: -28, y: 18.5}
-        - {x: -28, y: -29.5}
-        - {x: 25, y: -29.5}
-        - {x: 28, y: -9.5}
-        - {x: 28, y: 19.5}
-    - name: ILE_Idle1
+      - - {x: 18, y: 29.5}
+        - {x: -14, y: 29.5}
+        - {x: -23, y: 25.5}
+        - {x: -25, y: 18.5}
+        - {x: -25, y: -13.5}
+        - {x: -24, y: -16.5}
+        - {x: -10, y: -25.5}
+        - {x: 17, y: -25.5}
+        - {x: 19, y: -24.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 18.5}
+    - name: ILE1_Idle1
       rect:
         serializedVersion: 2
         x: 0
-        y: 584
+        y: 589
         width: 56
         height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 22, y: 23.5}
-        - {x: -7, y: 23.5}
-        - {x: -11, y: 22.5}
-        - {x: -25, y: 17.5}
-        - {x: -25, y: -24.5}
-        - {x: -24, y: -27.5}
-        - {x: 17, y: -27.5}
-        - {x: 24, y: -17.5}
-        - {x: 28, y: -5.5}
-        - {x: 28, y: 19.5}
-      - - {x: 25, y: -17.5}
-        - {x: 27, y: -19.5}
-        - {x: 28, y: -19.5}
-        - {x: 28, y: -13.5}
-        - {x: 25, y: -14.5}
-      - - {x: 23, y: 8.5}
-        - {x: 23, y: -7.5}
-        - {x: 26, y: -13.5}
-        - {x: 28, y: -13.5}
-        - {x: 28, y: 6.5}
-        - {x: 26, y: 9.5}
-    - name: ILE_Idle2
+      - - {x: -13, y: 17.5}
+        - {x: -27, y: 11.5}
+        - {x: -27, y: -3.5}
+        - {x: -18, y: -23.5}
+        - {x: 3, y: -23.5}
+        - {x: 16, y: -21.5}
+        - {x: 21, y: -17.5}
+        - {x: 21, y: 8.5}
+        - {x: 17, y: 17.5}
+    - name: ILE2_Idle1
       rect:
         serializedVersion: 2
-        x: 99
-        y: 584
+        x: 102
+        y: 589
         width: 56
         height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21, y: 18.5}
-        - {x: -21, y: -9.5}
-        - {x: -19, y: -20.5}
-        - {x: -13, y: -24.5}
-        - {x: 17, y: -24.5}
-        - {x: 24, y: -21.5}
-        - {x: 24, y: 9.5}
-        - {x: 19, y: 18.5}
-      - - {x: 3, y: 21.5}
-        - {x: 4, y: 18.5}
-        - {x: 14, y: 18.5}
-        - {x: 16, y: 20.5}
-        - {x: 15, y: 23.5}
-        - {x: 5, y: 23.5}
+      - - {x: -21, y: 15.5}
+        - {x: -21, y: -13.5}
+        - {x: -19, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 16, y: -21.5}
+        - {x: 20, y: -6.5}
+        - {x: 20, y: 15.5}
     - name: ILE_Attack1
       rect:
         serializedVersion: 2
@@ -148,21 +137,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -13, y: 29.5}
-        - {x: -28, y: 18.5}
-        - {x: -28, y: -5.5}
-        - {x: -24, y: -23.5}
-        - {x: -17, y: -27.5}
-        - {x: 20, y: -27.5}
-        - {x: 28, y: -4.5}
-        - {x: 28, y: 15.5}
-        - {x: 4, y: 29.5}
-      - - {x: -28, y: -15.5}
-        - {x: -26, y: -17.5}
-        - {x: -23, y: -16.5}
-        - {x: -23, y: -13.5}
-        - {x: -25, y: -11.5}
-        - {x: -28, y: -12.5}
+      - - {x: -21, y: 14.5}
+        - {x: -22, y: 12.5}
+        - {x: -22, y: -22.5}
+        - {x: -19, y: -25.5}
+        - {x: 6, y: -25.5}
+        - {x: 15, y: -24.5}
+        - {x: 19, y: -12.5}
+        - {x: 19, y: 3.5}
+        - {x: 10, y: 14.5}
     - name: Favos
       rect:
         serializedVersion: 2
@@ -174,13 +157,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -12.5, y: 17.5}
-        - {x: -20.5, y: 10.5}
-        - {x: -20.5, y: -10.5}
-        - {x: -14.5, y: -17.5}
-        - {x: 20.5, y: -17.5}
-        - {x: 20.5, y: 11.5}
-        - {x: 18.5, y: 17.5}
+      - - {x: 14.5, y: 17.5}
+        - {x: -14.5, y: 17.5}
+        - {x: -14.5, y: -10.5}
+        - {x: -7.5, y: -17.5}
+        - {x: 11.5, y: -17.5}
+        - {x: 18.5, y: -9.5}
+        - {x: 18.5, y: 12.5}
+        - {x: 17.5, y: 15.5}
     - name: ShellfishSubmerged1
       rect:
         serializedVersion: 2
@@ -283,6 +267,84 @@ TextureImporter:
         - {x: 11, y: -12.5}
         - {x: 11, y: 38.5}
         - {x: 10, y: 39.5}
+    - name: ILE1_Idle2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 589
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 18.5}
+        - {x: -24, y: 13.5}
+        - {x: -24, y: -1.5}
+        - {x: -19, y: -19.5}
+        - {x: -15, y: -23.5}
+        - {x: 12, y: -23.5}
+        - {x: 21, y: -18.5}
+        - {x: 21, y: 4.5}
+        - {x: 12, y: 18.5}
+    - name: ILE1_Idle3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 521
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 18.5}
+        - {x: -23, y: 12.5}
+        - {x: -23, y: -9.5}
+        - {x: -16, y: -23.5}
+        - {x: 7, y: -23.5}
+        - {x: 21, y: -20.5}
+        - {x: 21, y: 13.5}
+        - {x: 13, y: 18.5}
+    - name: ILE2_Idle3
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 522
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16.5}
+        - {x: -18, y: 16.5}
+        - {x: -21, y: 12.5}
+        - {x: -21, y: -16.5}
+        - {x: -18, y: -22.5}
+        - {x: 15, y: -22.5}
+        - {x: 21, y: -11.5}
+        - {x: 21, y: 13.5}
+    - name: ILE2_Idle2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 589
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 15.5}
+        - {x: -21, y: 15.5}
+        - {x: -21, y: -16.5}
+        - {x: -15, y: -21.5}
+        - {x: -6, y: -22.5}
+        - {x: -2, y: -22.5}
+        - {x: 14, y: -19.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 8.5}
     outline: []
   spritePackingTag: 
   userData: 

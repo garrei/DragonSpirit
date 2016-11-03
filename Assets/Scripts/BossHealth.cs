@@ -4,7 +4,9 @@ using UnityEngine.UI;
 
 public class BossHealth : MonoBehaviour {
 
-	public int health = 1;
+	float health = 500;
+	float maxHealth = 500;
+	float healthPercent;
 	public int score = 0;
 	public GameObject spawnOnDeath;
 	Transform myTransform;
@@ -26,9 +28,12 @@ public class BossHealth : MonoBehaviour {
 		if (bossOnScreen == true) 
 		{
 			healthBar.SetActive (true);
+			Debug.Log (bossOnScreen);
 		}
 
-		healthFill.fillAmount = health;
+		healthPercent = health / maxHealth;
+		Debug.Log (healthPercent);
+		healthFill.fillAmount = healthPercent;
 
 		if ((health < 1 && myTransform.parent == null) || (health < 1 && CompareTag("Credits"))){
 			OnDeath ();
