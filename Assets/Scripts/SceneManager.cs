@@ -25,6 +25,7 @@ public class SceneManager : MonoBehaviour {
 				Buttons.pauseMenu.SetActive (true);
 				Time.timeScale = 0;
 				Buttons.isPaused = true;
+				Debug.Log("Memes On");
 			} 
 			else 
 			{
@@ -33,6 +34,11 @@ public class SceneManager : MonoBehaviour {
 				Buttons.isPaused = false;
 				Debug.Log("Memes Off");
 			}
+		}
+		if (BossHealth.health < 1) 
+		{
+			Application.LoadLevel (6);
+			BossHealth.health = 500;
 		}
 	}
 

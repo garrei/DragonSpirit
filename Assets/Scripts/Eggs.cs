@@ -6,7 +6,8 @@ public class Eggs : MonoBehaviour {
 	public GameObject orb;
 	public GameObject eggAnim;
 	Transform myTransform;
-
+	public AudioSource audioSource;
+	public AudioClip powerUp;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +23,7 @@ public class Eggs : MonoBehaviour {
 		if(other.CompareTag("WeaponDown")){
 			Instantiate (orb, myTransform.position, Quaternion.identity);
 			Instantiate (eggAnim, myTransform.position, Quaternion.identity);
+			audioSource.PlayOneShot (powerUp);
 			Destroy (gameObject);
 		}
 	}

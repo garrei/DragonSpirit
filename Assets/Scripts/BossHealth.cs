@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class BossHealth : MonoBehaviour {
 
-	float health = 500;
+	public static float health = 500;
 	float maxHealth = 500;
 	float healthPercent;
 	public int score = 0;
@@ -15,6 +15,7 @@ public class BossHealth : MonoBehaviour {
 	public GameObject Boss;
 	public GameObject healthBar;
 	public Image healthFill;
+
 
 	// Update is called once per frame
 	void Start (){
@@ -32,7 +33,7 @@ public class BossHealth : MonoBehaviour {
 		}
 
 		healthPercent = health / maxHealth;
-		Debug.Log (healthPercent);
+//		Debug.Log (healthPercent);
 		healthFill.fillAmount = healthPercent;
 
 		if ((health < 1 && myTransform.parent == null) || (health < 1 && CompareTag("Credits"))){
