@@ -25,8 +25,8 @@ public class PlesiosaurusBeheviour : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-		if(myTransform.position.y < -80)
+		
+		if(myTransform.position.y < playerTransform.position.y + 10)
 		{
 			isOnScreen = true;
 		}

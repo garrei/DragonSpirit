@@ -9,7 +9,7 @@ public class ApterexBehaviour : MonoBehaviour {
 	bool isOrbiting = false;
 	int speedVertical = 7;
 	int speedHorizontal = 2;
-	float rotateSpeed = 1.5f;
+	float rotateSpeed = 200f;
 	Vector3 moveDirectionHorizontal = new Vector2 (0,0);
 
 	// Use this for initialization
@@ -37,7 +37,7 @@ public class ApterexBehaviour : MonoBehaviour {
 		}
 		if(isOrbiting == true){
 			myTransform.position = new Vector2 (myTransform.position.x,playerTransform.position.y);
-			rotatePoint.Rotate (Vector3.forward * rotateSpeed);
+			rotatePoint.Rotate (Vector3.forward * rotateSpeed * Time.deltaTime);
 		}
 		myTransform.Translate (moveDirectionHorizontal * Time.deltaTime * speedHorizontal);
 	}

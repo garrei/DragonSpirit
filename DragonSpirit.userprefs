@@ -1,12 +1,28 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerHealth.cs">
     <Files>
-      <File FileName="Assets\Scripts\ScoreCounter.cs" Line="4" Column="44" />
-      <File FileName="Assets\Scripts\EnemyHealth.cs" Line="45" Column="26" />
-      <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="34" Column="78" />
-      <File FileName="Assets\Scripts\BossHealth.cs" Line="58" Column="26" />
+      <File FileName="Assets\Scripts\SceneManager.cs" Line="7" Column="23" />
+      <File FileName="Assets\Scripts\Buttons.cs" Line="32" Column="27" />
+      <File FileName="Assets\Scripts\Enemies\RowenAI\ApterexBehaviour.cs" Line="21" Column="3" />
+      <File FileName="Assets\Scripts\Player\PlayerHealth.cs" Line="88" Column="19" />
+      <File FileName="Assets\Scripts\AudioController.cs" Line="36" Column="28" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DragonSpirit" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Player" expanded="True">
+                  <Node name="PlayerHealth.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

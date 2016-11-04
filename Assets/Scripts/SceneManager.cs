@@ -19,20 +19,27 @@ public class SceneManager : MonoBehaviour {
 	}
 	void Update ()
 	{
-		if (Input.GetKeyDown (KeyCode.Escape)) 
+		if (Input.GetKeyDown (KeyCode.Escape) && Buttons.pauseMenu.activeInHierarchy == false) 
 		{
 			if (Buttons.isPaused == false) {
 				Buttons.pauseMenu.SetActive (true);
 				Time.timeScale = 0;
 				Buttons.isPaused = true;
+				Debug.Log("Memes On");
 			} 
-			else 
-			{
-				Buttons.pauseMenu.SetActive (false);
-				Time.timeScale = 1;
-				Buttons.isPaused = false;
-				Debug.Log("Memes Off");
-			}
+		}
+		else if(Input.GetKeyDown (KeyCode.Escape) && Buttons.pauseMenu.activeInHierarchy == true)
+		{
+			Buttons.pauseMenu.SetActive (false);
+			Time.timeScale = 1;
+			Buttons.isPaused = false;
+			Debug.Log("Memes Off");
+		}
+
+		if (BossHealth.health < 1) 
+		{
+			Application.LoadLevel (6);
+			BossHealth.health = 500;
 		}
 	}
 

@@ -5,7 +5,7 @@ public class KopteraBehaviour : MonoBehaviour {
 
 	Transform playerTransform;
 	Transform myTransform;
-	int speedVertical = 7;
+	int speedVertical = 5;
 	int speedHorizontal = 3;
 	int rangeVertical = 2;
 	float rangeHorizontal = 0.5f;
