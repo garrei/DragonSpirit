@@ -14,13 +14,12 @@ public class SceneManager : MonoBehaviour {
 		{
 			LoadUI ();
 			Buttons.pauseMenu.SetActive (false);
-			Buttons.helpMenu.SetActive (false);
 			levelNumber = 1;
 		}
 	}
 	void Update ()
 	{
-		if (Input.GetKeyDown (KeyCode.Escape) && Buttons.helpMenu.activeInHierarchy == false) 
+		if (Input.GetKeyDown (KeyCode.Escape) && Buttons.pauseMenu.activeInHierarchy == false) 
 		{
 			if (Buttons.isPaused == false) {
 				Buttons.pauseMenu.SetActive (true);
@@ -28,31 +27,14 @@ public class SceneManager : MonoBehaviour {
 				Buttons.isPaused = true;
 				Debug.Log("Memes On");
 			} 
-			else if(Buttons.isPaused == true)
-			{
-				Buttons.pauseMenu.SetActive (false);
-				Time.timeScale = 1;
-				Buttons.isPaused = false;
-				Debug.Log("Memes Off");
-			}
 		}
-		if (Input.GetKeyDown (KeyCode.H) && Buttons.pauseMenu.activeInHierarchy == false) 
+		else if(Input.GetKeyDown (KeyCode.Escape) && Buttons.pauseMenu.activeInHierarchy == true)
 		{
-			if (Buttons.isPaused == false) {
-				Buttons.helpMenu.SetActive (true);
-				Time.timeScale = 0;
-				Buttons.isPaused = true;
-				Debug.Log("Beams On");
-			} 
-			else if(Buttons.isPaused == true)
-			{
-				Buttons.helpMenu.SetActive (false);
-				Time.timeScale = 1;
-				Buttons.isPaused = false;
-				Debug.Log("Beams Off");
-			}
+			Buttons.pauseMenu.SetActive (false);
+			Time.timeScale = 1;
+			Buttons.isPaused = false;
+			Debug.Log("Memes Off");
 		}
-
 
 		if (BossHealth.health < 1) 
 		{
