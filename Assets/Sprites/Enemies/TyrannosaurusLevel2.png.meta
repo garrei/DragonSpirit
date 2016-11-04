@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: d8334a18bee24394a951d6e074a43902
+timeCreated: 1478247879
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TyrannosaurusSide1
+    21300002: TyrannosaurusSide2
+    21300004: TyrannosaurusSideAttack
+    21300006: TyrannosaurusDiagnal1
+    21300008: TyrannosaurusDiagnal2
+    21300010: TyrannosaurusDiagnalAttack
+    21300012: TyrannosaurusFront1
+    21300014: TyrannosaurusFront2
+    21300016: TyrannosaurusFrontAttack
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TyrannosaurusSide1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TyrannosaurusSide2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 13
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TyrannosaurusSideAttack
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 13
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TyrannosaurusDiagnal1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TyrannosaurusDiagnal2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 50
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TyrannosaurusDiagnalAttack
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 50
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TyrannosaurusFront1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TyrannosaurusFront2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 81
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TyrannosaurusFrontAttack
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 81
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
