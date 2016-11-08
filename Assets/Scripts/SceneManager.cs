@@ -16,6 +16,13 @@ public class SceneManager : MonoBehaviour {
 			Buttons.pauseMenu.SetActive (false);
 			levelNumber = 1;
 		}
+		//Level 2
+		if (Application.loadedLevel == 8 && uiLoaded == false) 
+		{
+			LoadUI ();
+			Buttons.pauseMenu.SetActive (false);
+			levelNumber = 2;
+		}
 	}
 	void Update ()
 	{
