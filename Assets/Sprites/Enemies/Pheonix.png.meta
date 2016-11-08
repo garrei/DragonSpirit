@@ -1,12 +1,15 @@
 fileFormatVersion: 2
 guid: a872961de48c7f243a287751e52a07bc
-timeCreated: 1478247693
+timeCreated: 1478583005
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Pheonix_0
-    21300002: Pheonix_1
-    21300004: Pheonix_2
+    21300000: PheonixAppear_0
+    21300002: PheonixAppear_1
+    21300004: PheonixAppear_2
+    21300006: Pheonix_0
+    21300008: Pheonix_1
+    21300010: Pheonix_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -53,11 +56,44 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
+    - name: PheonixAppear_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PheonixAppear_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 5
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PheonixAppear_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 5
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: Pheonix_0
       rect:
         serializedVersion: 2
         x: 6
-        y: 0
+        y: 46
         width: 27
         height: 36
       alignment: 0
@@ -68,7 +104,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 41
-        y: 0
+        y: 46
         width: 27
         height: 36
       alignment: 0
@@ -79,7 +115,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 76
-        y: 0
+        y: 46
         width: 27
         height: 36
       alignment: 0
