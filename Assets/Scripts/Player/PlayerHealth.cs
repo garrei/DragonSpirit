@@ -13,7 +13,7 @@ public class PlayerHealth : MonoBehaviour {
 	public static float myOpacity = 1;
 	Collider2D myCollider;
 	public static bool mySpriteEnabled = true;
-	public GameObject myExplosion;
+	//public GameObject myExplosion;
 	public AudioSource MainAudioSource;
 	public AudioClip PlayerHitSound;
 
@@ -31,7 +31,13 @@ public class PlayerHealth : MonoBehaviour {
 			health = 3;
 			deathNextCool = Time.time + deathCooldownRate;
 			hitNextCool = Time.time + deathCooldownRate + hitCooldownRate;
-			Instantiate (myExplosion, myTransform.position, Quaternion.identity);
+
+			//Resetting powerups
+			PlayerAttack.fireRate1 = 0.15f;
+			PlayerAttack.fireRate2 = 1f;
+			PlayerHeads.powerLevel = 0;
+
+			//Instantiate (myExplosion, myTransform.position, Quaternion.identity);
 		}
 
 		//What happens when you run out of lives

@@ -31,12 +31,12 @@ public class PlayerAttack : MonoBehaviour {
 
 		//fireRate1 and fireRate 2 are used to determine the rate of fire, duh
 		//Uses Time.time to be sure it is as consistent as possible
-		if(Input.GetButton("Fire1") && Time.time > nextFire){
+		if(Input.GetButton("Fire1") && Time.time > nextFire && Time.time > PlayerHealth.deathNextCool){
 			nextFire = Time.time + fireRate1;
 			Instantiate (equippedWeaponForward, myTransform.position, Quaternion.identity);
 			playFire1Sound = true;
 		}
-		if(Input.GetButton("Fire2") && Time.time > nextFire && !Input.GetButton("Fire1")){
+		if(Input.GetButton("Fire2") && Time.time > nextFire && !Input.GetButton("Fire1") && Time.time > PlayerHealth.deathNextCool){
 			nextFire = Time.time + fireRate2;
 			Instantiate (equippedWeaponDown, myTransform.position, Quaternion.identity);
 			playFire2Sound = true;
