@@ -93,5 +93,10 @@ public class PlayerHealth : MonoBehaviour {
 			health--;
 			MainAudioSource.PlayOneShot (PlayerHitSound);
 		}
+		if(other.CompareTag("LavaPlume") && Time.time > hitNextCool){	
+			hitNextCool = Time.time + hitCooldownRate;
+			health--;
+			MainAudioSource.PlayOneShot (PlayerHitSound);
+		}
 	}
 }

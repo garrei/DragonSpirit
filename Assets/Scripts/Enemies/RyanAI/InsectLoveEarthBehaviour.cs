@@ -16,7 +16,6 @@ public class InsectLoveEarthBehaviour : MonoBehaviour {
 		playerTransform = GameObject.Find ("PlayerGraphic").transform;
 		altSprite = Random.Range (0, 2);
 		anim.SetInteger ("altSprite",altSprite);
-		Debug.Log (altSprite);
 	}
 
 	// Update is called once per frame
