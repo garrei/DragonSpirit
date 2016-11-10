@@ -7,7 +7,7 @@ public class BioCyclerRocks : MonoBehaviour {
 	Transform myTransform;
 	int speedVertical = 7;
 	int speedHorizontal = 2;
-	float rotateSpeed = 50f;
+	public float rotateSpeed = 50f;
 
 	// Use this for initialization
 	void Start () 

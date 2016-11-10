@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\Enemies\RowenAI\PlesiosaurusBeheviour.cs" />
      <Compile Include="Assets\Scripts\Enemies\RowenAI\PlesiosaurusMove.cs" />
      <Compile Include="Assets\Scripts\Enemies\RowenAI\PlesiosaurusNeck.cs" />
+     <Compile Include="Assets\Scripts\Enemies\RowenAI\RoundPhoenixBehaviour.cs" />
      <Compile Include="Assets\Scripts\Enemies\RyanAI\AlligatorBehaviour.cs" />
      <Compile Include="Assets\Scripts\Enemies\RyanAI\AquasaurusBehaviour.cs" />
      <Compile Include="Assets\Scripts\Enemies\RyanAI\BioCyclerBehaviour.cs" />

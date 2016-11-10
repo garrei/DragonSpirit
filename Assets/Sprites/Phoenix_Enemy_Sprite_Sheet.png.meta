@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 3e7df1b57fad2ec4589685206a7dd0cc
+timeCreated: 1478765826
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Phoenix_Enemy_Sprite_Sheet_0
+    21300002: Phoenix_Enemy_Sprite_Sheet_3
+    21300004: Phoenix_Enemy_Sprite_Sheet_15
+    21300006: Phoenix_Enemy_Sprite_Sheet_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 256
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Phoenix_Enemy_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 521
+        width: 330
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82, y: -65}
+        - {x: 119, y: -59}
+        - {x: 121, y: -57}
+        - {x: 121, y: -56}
+        - {x: 118, y: -49}
+        - {x: 128, y: -47}
+        - {x: 126, y: -47}
+        - {x: 123, y: -49}
+        - {x: 123, y: -67}
+        - {x: 36, y: -67}
+        - {x: 34, y: -69}
+        - {x: 35, y: -72}
+        - {x: 126, y: -75}
+        - {x: 157, y: -57}
+        - {x: 165, y: -34}
+        - {x: 165, y: -4}
+        - {x: 152, y: 26}
+        - {x: 94, y: 93}
+        - {x: -73, y: 93}
+        - {x: -70, y: 67}
+        - {x: -53, y: 57}
+        - {x: -47, y: 54}
+        - {x: -153, y: 27}
+        - {x: -165, y: 0}
+        - {x: -165, y: -49}
+        - {x: -125, y: -84}
+        - {x: -23, y: -71}
+        - {x: -31, y: -67}
+        - {x: -119, y: -67}
+        - {x: -80, y: -67}
+        - {x: -75, y: -66}
+        - {x: -58, y: -49}
+        - {x: -26, y: -54}
+        - {x: -9, y: -93}
+        - {x: 14, y: -93}
+        - {x: 41, y: -44}
+        - {x: 75, y: -67}
+        - {x: 80, y: -67}
+      - - {x: -160, y: -36}
+        - {x: -163, y: -37}
+        - {x: -163, y: -45}
+        - {x: -151, y: -63}
+        - {x: -149, y: -65}
+        - {x: -144, y: -63}
+        - {x: -144, y: -59}
+        - {x: -151, y: -48}
+        - {x: -159, y: -36}
+      - - {x: 159, y: -36}
+        - {x: 148, y: -58}
+        - {x: 148, y: -65}
+        - {x: 153, y: -65}
+        - {x: 165, y: -55}
+        - {x: 165, y: -36}
+      - - {x: -124, y: 76}
+        - {x: -124, y: 64}
+        - {x: -119, y: 64}
+        - {x: -111, y: 73}
+        - {x: -109, y: 75}
+        - {x: -110, y: 78}
+        - {x: -122, y: 78}
+      - - {x: 113, y: 78}
+        - {x: 113, y: 72}
+        - {x: 120, y: 64}
+        - {x: 127, y: 64}
+        - {x: 128, y: 65}
+        - {x: 128, y: 76}
+        - {x: 126, y: 78}
+      - - {x: -101, y: 93}
+        - {x: -104, y: 85}
+        - {x: -104, y: 78}
+        - {x: -102, y: 77}
+        - {x: -99, y: 77}
+        - {x: -97, y: 79}
+        - {x: -94, y: 91}
+        - {x: -94, y: 93}
+      - - {x: 98, y: 93}
+        - {x: 98, y: 91}
+        - {x: 100, y: 81}
+        - {x: 105, y: 77}
+        - {x: 108, y: 78}
+        - {x: 108, y: 84}
+        - {x: 107, y: 89}
+        - {x: 104, y: 93}
+      - - {x: -15, y: 93}
+        - {x: -14, y: 90}
+        - {x: -11, y: 90}
+        - {x: -9, y: 92}
+        - {x: -9, y: 93}
+    - name: Phoenix_Enemy_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 230
+        width: 303
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -115.5, y: 93.5}
+        - {x: -151.5, y: 79.5}
+        - {x: -151.5, y: -32.5}
+        - {x: -66.5, y: -93.5}
+        - {x: 47.5, y: -93.5}
+        - {x: 132.5, y: -29.5}
+        - {x: 151.5, y: -5.5}
+        - {x: 151.5, y: 93.5}
+      - - {x: 118.5, y: -75.5}
+        - {x: 123.5, y: -75.5}
+        - {x: 125.5, y: -74.5}
+        - {x: 125.5, y: -69.5}
+        - {x: 122.5, y: -67.5}
+        - {x: 118.5, y: -70.5}
+      - - {x: -68.5, y: -69.5}
+        - {x: -67.5, y: -72.5}
+        - {x: -34.5, y: -72.5}
+        - {x: -32.5, y: -70.5}
+        - {x: -33.5, y: -67.5}
+        - {x: -66.5, y: -67.5}
+      - - {x: 31.5, y: -69.5}
+        - {x: 32.5, y: -72.5}
+        - {x: 77.5, y: -72.5}
+        - {x: 79.5, y: -70.5}
+        - {x: 78.5, y: -67.5}
+        - {x: 33.5, y: -67.5}
+      - - {x: 147.5, y: -59.5}
+        - {x: 147.5, y: -63.5}
+        - {x: 149.5, y: -65.5}
+        - {x: 151.5, y: -64.5}
+        - {x: 151.5, y: -59.5}
+        - {x: 150.5, y: -58.5}
+    - name: Phoenix_Enemy_Sprite_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 35
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 24.5}
+        - {x: -23, y: 22.5}
+        - {x: -23, y: -23.5}
+        - {x: -21, y: -24.5}
+        - {x: 14, y: -24.5}
+        - {x: 23, y: -20.5}
+        - {x: 23, y: 24.5}
+    - name: Phoenix_Enemy_Sprite_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 35
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -14}
+        - {x: 16, y: -10}
+        - {x: 26, y: -8}
+        - {x: 30, y: -6}
+        - {x: 30, y: 17}
+        - {x: 26, y: 18}
+        - {x: -7, y: 18}
+        - {x: -9, y: 16}
+        - {x: -11, y: 11}
+        - {x: -13, y: 18}
+        - {x: -26, y: 18}
+        - {x: -30, y: 16}
+        - {x: -30, y: -11}
+        - {x: -18, y: -18}
+        - {x: 3, y: -18}
+        - {x: 4, y: -14}
+        - {x: 6, y: -16}
+        - {x: 15, y: -16}
+      - - {x: 23, y: -16}
+        - {x: 26, y: -15}
+        - {x: 26, y: -12}
+        - {x: 23, y: -11}
+        - {x: 21, y: -13}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
