@@ -7,6 +7,7 @@ public class TerrainMove : MonoBehaviour {
 	float speed = 0.5f;
 	Transform myTransform;
 	GameObject player;
+	public int moveStop = -76;
 
 	// Use this for initialization
 	void Start () {
@@ -18,14 +19,14 @@ public class TerrainMove : MonoBehaviour {
 	void Update () {
 
 		//Object moves down at a constant speed
-		if(terrainIsMoving == true && myTransform.position.y > -76){
+		if(terrainIsMoving == true && myTransform.position.y > moveStop){
 			if(Time.time > PlayerHealth.deathNextCool){
 			myTransform.Translate (Vector3.down *speed * Time.deltaTime);
 			}
 		}
 
-		if(myTransform.position.y < -76){
-			myTransform.position = new Vector2 (myTransform.position.x, -76);
+		if(myTransform.position.y < moveStop){
+			myTransform.position = new Vector2 (myTransform.position.x, moveStop);
 		}
 
 		//This moves the terrain in the opposite direction that the player is moving
