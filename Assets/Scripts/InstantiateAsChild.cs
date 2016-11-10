@@ -8,6 +8,10 @@ public class InstantiateAsChild : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		myTransform = transform;
-		myTransform.parent = GameObject.Find ("Terrain").transform;
+		if (GameObject.Find ("Terrain") != null) {
+			myTransform.parent = GameObject.Find ("Terrain").transform;
+		} else {
+			myTransform.parent = GameObject.Find ("Terrain02").transform;
+		}
 	}
 }

@@ -40,3 +40,6 @@ D:\GitHub Repos\DragonSpirit\Temp\bin\Debug\UnityEngine.Networking.xml
 D:\GitHub Repos\DragonSpirit\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 D:\GitHub Repos\DragonSpirit\obj\Debug\Assembly-CSharp.dll
 D:\GitHub Repos\DragonSpirit\obj\Debug\Assembly-CSharp.pdb
+C:\Users\rowen_000\Desktop\Dragon Spirit\DragonSpirit\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\rowen_000\Desktop\Dragon Spirit\DragonSpirit\obj\Debug\Assembly-CSharp.dll
+C:\Users\rowen_000\Desktop\Dragon Spirit\DragonSpirit\obj\Debug\Assembly-CSharp.pdb
