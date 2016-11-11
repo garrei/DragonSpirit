@@ -19,6 +19,8 @@ public class PlayerHealth : MonoBehaviour {
 
 	void Start (){
 		myTransform = transform;
+		health = 3;
+		lives = 3;
 		myCollider = GameObject.Find("Player").GetComponent<Collider2D> ();
 	}
 
