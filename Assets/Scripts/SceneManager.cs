@@ -45,12 +45,16 @@ public class SceneManager : MonoBehaviour {
 
 		if (BossHealth.health < 1) 
 		{
+			PlayerHealth.health = 3;
+			PlayerHealth.lives = 3;
 			Application.LoadLevel (8);
 			BossHealth.health = 500;
 		}
 
 		if (BossHealth2.health < 1) 
 		{
+			PlayerHealth.health = 3;
+			PlayerHealth.lives = 3;
 			Application.LoadLevel (6);
 			BossHealth.health = 500;
 		}

@@ -20,6 +20,8 @@ public class Buttons : MonoBehaviour {
 	}
 	public void ReturnToMenu ()
 	{
+		pauseMenu.SetActive (false);
+		isPaused = false;
 		Application.LoadLevel (1);
 		Time.timeScale = 1;
 	}
