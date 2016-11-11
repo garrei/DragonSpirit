@@ -13,11 +13,12 @@ public class RoundPhoenixBehaviour : MonoBehaviour {
 	public int minY;
 	public int maxY;
 	SpriteRenderer mySpriteRenderer;
+	public bool isOnScreen = false;
 
 	// Use this for initialization
 	void Start () {
 		mySpriteRenderer = GetComponent <SpriteRenderer> ();
-
+		isOnScreen = true;
 		myTransform = transform;
 
 		randomInt = Random.Range (0,2);
@@ -34,6 +35,9 @@ public class RoundPhoenixBehaviour : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+
+
+
 		randomInt = Random.Range (0,2);
 
 		if(myTransform.position.x >= maximumX){

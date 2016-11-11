@@ -29,7 +29,6 @@ public class BossHealth : MonoBehaviour {
 		if (bossOnScreen == true) 
 		{
 			healthBar.SetActive (true);
-			Debug.Log (bossOnScreen);
 		}
 
 		healthPercent = health / maxHealth;
