@@ -5,6 +5,7 @@ public class Buttons : MonoBehaviour {
 	public static GameObject pauseMenu;
 	public static GameObject helpMenu;
 	public static bool isPaused;
+	public static bool hardMode = true;
 
 	void Start ()
 	{
@@ -52,6 +53,12 @@ public class Buttons : MonoBehaviour {
 	public void LoadCredits ()
 	{
 		Application.LoadLevel (5);
+	}
+
+	public void HardModeToggle()
+	{
+		hardMode = !hardMode;
+		Debug.Log (hardMode);
 	}
 
 	//**********************************************************************************
