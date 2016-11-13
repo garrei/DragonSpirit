@@ -32,6 +32,7 @@ public class Buttons : MonoBehaviour {
 	public void StartGame () 
 	{
 		Application.LoadLevel (2);
+		UIManager.runScore = 0f;
 	}
 	public void HelpMenu () 
 	{

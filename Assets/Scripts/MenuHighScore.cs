@@ -9,7 +9,7 @@ public class MenuHighScore : MonoBehaviour
 
 	void Start ()
 	{
-			currentRunScore.text = Mathf.FloorToInt (ScoreCounter.levelScore).ToString ();
+		currentRunScore.text = Mathf.FloorToInt (UIManager.runScore).ToString ();
 	}
 
 	void Update () 

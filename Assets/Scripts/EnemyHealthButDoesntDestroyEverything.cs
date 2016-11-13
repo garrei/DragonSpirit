@@ -42,7 +42,7 @@ public class EnemyHealthButDoesntDestroyEverything : MonoBehaviour {
 	}
 
 	void OnDeath (){
-		ScoreCounter.levelScore += score;
+		UIManager.runScore += score;
 		Instantiate (spawnOnDeath, myTransform.position,Quaternion.identity);
 	}
 

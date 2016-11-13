@@ -11,11 +11,10 @@ public class BossHealth : MonoBehaviour {
 	public GameObject spawnOnDeath;
 	Transform myTransform;
 	GameObject myTerrain;
-	bool bossOnScreen;
+	public static bool bossOnScreen;
 	public GameObject Boss;
 	public GameObject healthBar;
 	public Image healthFill;
-
 
 	// Update is called once per frame
 	void Start (){
@@ -24,6 +23,7 @@ public class BossHealth : MonoBehaviour {
 	}
 
 	void Update () {
+
 		bossOnScreen = Boss.GetComponent<PlesiosaurusBeheviour> ().isOnScreen;
 
 		if (bossOnScreen == true) 
@@ -60,7 +60,7 @@ public class BossHealth : MonoBehaviour {
 	}
 
 	void OnDeath (){
-		ScoreCounter.levelScore += score;
+		UIManager.runScore += score;
 		Instantiate (spawnOnDeath, myTransform.position,Quaternion.identity);
 	}
 

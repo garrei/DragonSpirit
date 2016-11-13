@@ -5,6 +5,9 @@ using System.Collections;
 public class UIManager : MonoBehaviour {
 
 	private float highScore;
+	private float level1Score = 0f;
+	private float level2Score = 0f;
+	public static float runScore;
 	public Text scoreText;
 	public Text highScoreText;
 	public Text areaNumber;
@@ -24,14 +27,15 @@ public class UIManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (ScoreCounter.levelScore > highScore) 
+		if (runScore > highScore) 
 		{
-			highScore = ScoreCounter.levelScore;
+			highScore = runScore;
 			PlayerPrefs.SetFloat("hs", highScore);
 			playHighScoreBrokenSound = true;
 		}
 
-		scoreText.text = Mathf.FloorToInt (ScoreCounter.levelScore).ToString ();	
+		runScore += level1Score + level2Score;
+		scoreText.text = Mathf.FloorToInt (runScore).ToString ();	
 		highScoreText.text = Mathf.FloorToInt (highScore).ToString();
 	}
 }

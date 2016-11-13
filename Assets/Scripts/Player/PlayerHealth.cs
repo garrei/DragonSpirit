@@ -14,8 +14,6 @@ public class PlayerHealth : MonoBehaviour {
 	Collider2D myCollider;
 	public static bool mySpriteEnabled = true;
 	//public GameObject myExplosion;
-	public AudioSource MainAudioSource;
-	public AudioClip PlayerHitSound;
 
 	void Start (){
 		myTransform = transform;
@@ -88,17 +86,14 @@ public class PlayerHealth : MonoBehaviour {
 			Destroy (other.gameObject);
 			hitNextCool = Time.time + hitCooldownRate;
 			health--;
-			MainAudioSource.PlayOneShot (PlayerHitSound);
 		}
 		if(other.CompareTag("Airborne") && Time.time > hitNextCool){	
 			hitNextCool = Time.time + hitCooldownRate;
 			health--;
-			MainAudioSource.PlayOneShot (PlayerHitSound);
 		}
 		if(other.CompareTag("LavaPlume") && Time.time > hitNextCool){	
 			hitNextCool = Time.time + hitCooldownRate;
 			health--;
-			MainAudioSource.PlayOneShot (PlayerHitSound);
 		}
 	}
 }
