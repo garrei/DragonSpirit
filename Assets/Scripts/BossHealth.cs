@@ -60,6 +60,8 @@ public class BossHealth : MonoBehaviour {
 	}
 
 	void OnDeath (){
+		PlayerAttack.playerAttackIsBossDead = true;
+		PlayerController.playerControllerIsBossDead = true;
 		UIManager.runScore += score;
 		Instantiate (spawnOnDeath, myTransform.position,Quaternion.identity);
 	}

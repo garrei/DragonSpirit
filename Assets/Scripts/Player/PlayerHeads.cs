@@ -10,9 +10,11 @@ public class PlayerHeads : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		
+		//Only want to reset powerups on level 1
+		if(Application.loadedLevel == 2){
 		powerLevel = 0;
-
+		}
 		oneHead = GameObject.Find ("PlayerGraphic1");
 		twoHead = GameObject.Find ("PlayerGraphic2");
 		threeHead = GameObject.Find ("PlayerGraphic3");

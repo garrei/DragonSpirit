@@ -9,12 +9,14 @@ public class PlayerController : MonoBehaviour {
 	public bool canMoveLeft = true, canMoveRight = true;
 	float movement = 0;
 	public static bool colliderIsOn = true;
+	public static bool playerControllerIsBossDead = false;
 
 	// Use this for initialization
 	void Start () {
 		myTransform = transform;
 		rb = GetComponent<Rigidbody2D>();
 		speedDiag = speedNormal * 2/3;
+		playerControllerIsBossDead = false;
 	}
 
 	// Update is called once per frame
@@ -53,11 +55,24 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		//Y axis camera constraints
-		if(myTransform.position.y > 9.25f){
+		if(myTransform.position.y > 9.25f && playerControllerIsBossDead == false){
 			myTransform.position = new Vector2 (myTransform.position.x,9.25f);
 		}
 		if(myTransform.position.y < 0.4f){
 			myTransform.position = new Vector2 (myTransform.position.x,0.4f);
+		}
+
+		//Loading next scene after boss is ded
+		if(myTransform.position.y > 11 && playerControllerIsBossDead == true){
+			if (Application.loadedLevel == 2) {
+				playerControllerIsBossDead = false;
+				PlayerAttack.playerAttackIsBossDead = false;
+				Application.LoadLevel (8);
+			} else {
+				playerControllerIsBossDead = false;
+				PlayerAttack.playerAttackIsBossDead = false;
+				Application.LoadLevel (6);
+			}
 		}
 
 		//Fixing the jittering of the terrain
@@ -78,8 +93,14 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		//Movement
-		if(Time.time > PlayerHealth.deathNextCool){
+		if(Time.time > PlayerHealth.deathNextCool && playerControllerIsBossDead == false){
 		rb.velocity = new Vector2 (movement*currentSpeed, Input.GetAxisRaw("Vertical")*currentSpeed);
+		}
+
+		//Moving up after murdering a boss
+		if(playerControllerIsBossDead == true){
+		rb.velocity = new Vector2 (0,0);
+		myTransform.Translate (Vector2.up * speedNormal * Time.deltaTime);
 		}
 
 		//Turning collider off with Spacebar

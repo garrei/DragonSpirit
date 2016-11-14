@@ -47,7 +47,7 @@ public class SceneManager : MonoBehaviour {
 		{
 			PlayerHealth.health = 3;
 			PlayerHealth.lives = 3;
-			Application.LoadLevel (8);
+			//Application.LoadLevel (8);
 			BossHealth.health = 500;
 		}
 
@@ -55,7 +55,7 @@ public class SceneManager : MonoBehaviour {
 		{
 			PlayerHealth.health = 3;
 			PlayerHealth.lives = 3;
-			Application.LoadLevel (6);
+			//Application.LoadLevel (6);
 			BossHealth.health = 500;
 		}
 	}

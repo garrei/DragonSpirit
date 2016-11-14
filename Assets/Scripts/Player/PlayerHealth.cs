@@ -17,7 +17,11 @@ public class PlayerHealth : MonoBehaviour {
 
 	void Start (){
 		myTransform = transform;
-		health = 3;
+
+		//Only want to reset powerups on level 1
+		if(Application.loadedLevel == 2){
+			health = 3;
+		}
 		lives = 3;
 		myCollider = GameObject.Find("Player").GetComponent<Collider2D> ();
 	}

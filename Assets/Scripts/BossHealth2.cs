@@ -4,8 +4,8 @@ using UnityEngine.UI;
 
 public class BossHealth2 : MonoBehaviour {
 
-	public static float health = 500;
-	float maxHealth = 500;
+	public static float health = 400;
+	float maxHealth = 400;
 	float healthPercent;
 	public int score = 0;
 	public GameObject spawnOnDeath;
@@ -19,7 +19,6 @@ public class BossHealth2 : MonoBehaviour {
 	Image healthBarBackImage;
 	Image healthBarBackgroundImage;
 	Image healthFillImage;
-
 
 	// Update is called once per frame
 	void Start (){
@@ -68,6 +67,8 @@ public class BossHealth2 : MonoBehaviour {
 	}
 
 	void OnDeath (){
+		PlayerAttack.playerAttackIsBossDead = true;
+		PlayerController.playerControllerIsBossDead = true;
 		UIManager.runScore += score;
 		Instantiate (spawnOnDeath, myTransform.position,Quaternion.identity);
 	}
