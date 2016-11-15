@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	Transform myTransform;
-	Rigidbody2D rb;
+	public static Rigidbody2D rb;
 	float currentSpeed, speedNormal = 5, speedDiag;
 	public bool canMoveLeft = true, canMoveRight = true;
 	float movement = 0;

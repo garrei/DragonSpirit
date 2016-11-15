@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TerrainMove : MonoBehaviour {
+public class PlesiosaurusMove : MonoBehaviour {
 
 	bool terrainIsMoving = true;
 	public static float speed = 0.5f;

@@ -71,6 +71,7 @@ public class PlayerHealth : MonoBehaviour {
 
 		//Determines whether the death cooldown is active
 		if(Time.time < deathNextCool){
+			PlayerController.rb.velocity = new Vector2 (0,0);
 			myCollider.enabled = false;
 			mySpriteEnabled = false;
 		}
