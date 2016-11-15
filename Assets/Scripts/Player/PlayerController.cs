@@ -102,13 +102,6 @@ public class PlayerController : MonoBehaviour {
 		rb.velocity = new Vector2 (0,0);
 		myTransform.Translate (Vector2.up * speedNormal * Time.deltaTime);
 		}
-
-		//Turning collider off with Spacebar
-		if(Input.GetKeyDown(KeyCode.Space) && colliderIsOn == true){
-			colliderIsOn = false;
-		} else
-		if(Input.GetKeyDown(KeyCode.Space) && colliderIsOn == false){
-			colliderIsOn = true;
-		}
 	}
+
 }

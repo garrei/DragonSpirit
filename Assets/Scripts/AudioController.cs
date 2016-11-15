@@ -18,7 +18,7 @@ public class AudioController : MonoBehaviour {
 	public AudioClip monsterGroan4;
 	public AudioClip playerLostHealth;
 	public Slider volumeSlider;
-	public static float volume;
+	public static float volume = 1f;
 	private int thePlayersHealth = 3;
 	private int thePlayersLives = 3;
 

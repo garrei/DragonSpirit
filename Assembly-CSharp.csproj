@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\BossHealth.cs" />
      <Compile Include="Assets\Scripts\BossHealth2.cs" />
      <Compile Include="Assets\Scripts\Buttons.cs" />
+     <Compile Include="Assets\Scripts\CheatScript.cs" />
      <Compile Include="Assets\Scripts\DestroyAfterTime.cs" />
      <Compile Include="Assets\Scripts\DestroyWhenHitPlayer.cs" />
      <Compile Include="Assets\Scripts\Eggs.cs" />
@@ -90,6 +91,7 @@
      <Compile Include="Assets\Scripts\SplashScreen.cs" />
      <Compile Include="Assets\Scripts\TerrainMove.cs" />
      <Compile Include="Assets\Scripts\UIHUD.cs" />
+     <Compile Include="Assets\Scripts\UIKeeper.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\Scripts\Weapons\primaryNormal.cs" />
      <Compile Include="Assets\Scripts\Weapons\secondaryNormal.cs" />
