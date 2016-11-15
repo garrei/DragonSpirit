@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Buttons : MonoBehaviour {
 	public static GameObject pauseMenu;
 	public static GameObject helpMenu;
 	public static bool isPaused;
 	public static bool hardMode = true;
+
 
 	void Start ()
 	{

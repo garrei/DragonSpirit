@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlesiosaurusMove : MonoBehaviour {
+public class TerrainMove : MonoBehaviour {
 
 	bool terrainIsMoving = true;
-	float speed = 0.5f;
+	public static float speed = 0.5f;
 	Transform myTransform;
 	GameObject player;
 
